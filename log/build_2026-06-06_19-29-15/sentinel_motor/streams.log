@@ -1,0 +1,35 @@
+[0.014s] Invoking command in '/root/ros2_ws/build/sentinel_motor': CMAKE_PREFIX_PATH=/opt/ros/jazzy:/root/ros2_ws/install/sentinel_interfaces:/root/ros2_ws/install/sentinel_motor /usr/bin/cmake --build /root/ros2_ws/build/sentinel_motor -- -j14 -l14
+[0.179s] [ 37%] Built target pan_tilt_control_node
+[0.226s] [ 62%] Built target tracking_control_node
+[0.274s] [100%] Built target motor_feedback_node
+[0.293s] Invoked command in '/root/ros2_ws/build/sentinel_motor' returned '0': CMAKE_PREFIX_PATH=/opt/ros/jazzy:/root/ros2_ws/install/sentinel_interfaces:/root/ros2_ws/install/sentinel_motor /usr/bin/cmake --build /root/ros2_ws/build/sentinel_motor -- -j14 -l14
+[0.297s] Invoking command in '/root/ros2_ws/build/sentinel_motor': CMAKE_PREFIX_PATH=/opt/ros/jazzy:/root/ros2_ws/install/sentinel_interfaces:/root/ros2_ws/install/sentinel_motor /usr/bin/cmake --install /root/ros2_ws/build/sentinel_motor
+[0.305s] -- Install configuration: ""
+[0.308s] -- Up-to-date: /root/ros2_ws/install/sentinel_motor/lib/sentinel_motor/pan_tilt_control_node
+[0.308s] -- Up-to-date: /root/ros2_ws/install/sentinel_motor/lib/sentinel_motor/motor_feedback_node
+[0.308s] -- Up-to-date: /root/ros2_ws/install/sentinel_motor/lib/sentinel_motor/tracking_control_node
+[0.308s] -- Up-to-date: /root/ros2_ws/install/sentinel_motor/share/sentinel_motor/config
+[0.308s] -- Up-to-date: /root/ros2_ws/install/sentinel_motor/share/sentinel_motor/config/params.yaml
+[0.308s] -- Up-to-date: /root/ros2_ws/install/sentinel_motor/share/sentinel_motor/launch
+[0.308s] -- Up-to-date: /root/ros2_ws/install/sentinel_motor/share/sentinel_motor/launch/pan_tilt_control.launch.py
+[0.308s] -- Up-to-date: /root/ros2_ws/install/sentinel_motor/include/
+[0.309s] -- Up-to-date: /root/ros2_ws/install/sentinel_motor/include//sentinel_motor
+[0.309s] -- Up-to-date: /root/ros2_ws/install/sentinel_motor/include//sentinel_motor/PacketDef.hpp
+[0.309s] -- Up-to-date: /root/ros2_ws/install/sentinel_motor/include//sentinel_motor/UdpTransport.hpp
+[0.309s] -- Up-to-date: /root/ros2_ws/install/sentinel_motor/include//sentinel_motor/PacketDef_backup.hpp
+[0.309s] -- Up-to-date: /root/ros2_ws/install/sentinel_motor/share/ament_index/resource_index/package_run_dependencies/sentinel_motor
+[0.309s] -- Up-to-date: /root/ros2_ws/install/sentinel_motor/share/ament_index/resource_index/parent_prefix_path/sentinel_motor
+[0.309s] -- Up-to-date: /root/ros2_ws/install/sentinel_motor/share/sentinel_motor/environment/ament_prefix_path.sh
+[0.309s] -- Up-to-date: /root/ros2_ws/install/sentinel_motor/share/sentinel_motor/environment/ament_prefix_path.dsv
+[0.309s] -- Up-to-date: /root/ros2_ws/install/sentinel_motor/share/sentinel_motor/environment/path.sh
+[0.309s] -- Up-to-date: /root/ros2_ws/install/sentinel_motor/share/sentinel_motor/environment/path.dsv
+[0.309s] -- Up-to-date: /root/ros2_ws/install/sentinel_motor/share/sentinel_motor/local_setup.bash
+[0.309s] -- Up-to-date: /root/ros2_ws/install/sentinel_motor/share/sentinel_motor/local_setup.sh
+[0.310s] -- Up-to-date: /root/ros2_ws/install/sentinel_motor/share/sentinel_motor/local_setup.zsh
+[0.310s] -- Up-to-date: /root/ros2_ws/install/sentinel_motor/share/sentinel_motor/local_setup.dsv
+[0.310s] -- Installing: /root/ros2_ws/install/sentinel_motor/share/sentinel_motor/package.dsv
+[0.310s] -- Up-to-date: /root/ros2_ws/install/sentinel_motor/share/ament_index/resource_index/packages/sentinel_motor
+[0.310s] -- Up-to-date: /root/ros2_ws/install/sentinel_motor/share/sentinel_motor/cmake/sentinel_motorConfig.cmake
+[0.310s] -- Up-to-date: /root/ros2_ws/install/sentinel_motor/share/sentinel_motor/cmake/sentinel_motorConfig-version.cmake
+[0.310s] -- Up-to-date: /root/ros2_ws/install/sentinel_motor/share/sentinel_motor/package.xml
+[0.313s] Invoked command in '/root/ros2_ws/build/sentinel_motor' returned '0': CMAKE_PREFIX_PATH=/opt/ros/jazzy:/root/ros2_ws/install/sentinel_interfaces:/root/ros2_ws/install/sentinel_motor /usr/bin/cmake --install /root/ros2_ws/build/sentinel_motor

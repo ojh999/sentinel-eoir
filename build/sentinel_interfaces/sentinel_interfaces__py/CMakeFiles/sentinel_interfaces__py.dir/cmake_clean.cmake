@@ -1,0 +1,41 @@
+file(REMOVE_RECURSE
+  "/root/ros2_ws/build/sentinel_interfaces/rosidl_generator_py/sentinel_interfaces/_sentinel_interfaces_s.ep.rosidl_typesupport_c.c"
+  "/root/ros2_ws/build/sentinel_interfaces/rosidl_generator_py/sentinel_interfaces/_sentinel_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/root/ros2_ws/build/sentinel_interfaces/rosidl_generator_py/sentinel_interfaces/_sentinel_interfaces_s.ep.rosidl_typesupport_introspection_c.c"
+  "/root/ros2_ws/build/sentinel_interfaces/rosidl_generator_py/sentinel_interfaces/msg/__init__.py"
+  "/root/ros2_ws/build/sentinel_interfaces/rosidl_generator_py/sentinel_interfaces/msg/_detection.py"
+  "/root/ros2_ws/build/sentinel_interfaces/rosidl_generator_py/sentinel_interfaces/msg/_detection2_d.py"
+  "/root/ros2_ws/build/sentinel_interfaces/rosidl_generator_py/sentinel_interfaces/msg/_detection2_d_array.py"
+  "/root/ros2_ws/build/sentinel_interfaces/rosidl_generator_py/sentinel_interfaces/msg/_detection2_d_array_s.c"
+  "/root/ros2_ws/build/sentinel_interfaces/rosidl_generator_py/sentinel_interfaces/msg/_detection2_d_s.c"
+  "/root/ros2_ws/build/sentinel_interfaces/rosidl_generator_py/sentinel_interfaces/msg/_detection_s.c"
+  "/root/ros2_ws/build/sentinel_interfaces/rosidl_generator_py/sentinel_interfaces/msg/_frame_info.py"
+  "/root/ros2_ws/build/sentinel_interfaces/rosidl_generator_py/sentinel_interfaces/msg/_frame_info_s.c"
+  "/root/ros2_ws/build/sentinel_interfaces/rosidl_generator_py/sentinel_interfaces/msg/_frame_size.py"
+  "/root/ros2_ws/build/sentinel_interfaces/rosidl_generator_py/sentinel_interfaces/msg/_frame_size_s.c"
+  "/root/ros2_ws/build/sentinel_interfaces/rosidl_generator_py/sentinel_interfaces/msg/_motor_angle.py"
+  "/root/ros2_ws/build/sentinel_interfaces/rosidl_generator_py/sentinel_interfaces/msg/_motor_angle_s.c"
+  "/root/ros2_ws/build/sentinel_interfaces/rosidl_generator_py/sentinel_interfaces/msg/_motor_command.py"
+  "/root/ros2_ws/build/sentinel_interfaces/rosidl_generator_py/sentinel_interfaces/msg/_motor_command_s.c"
+  "/root/ros2_ws/build/sentinel_interfaces/rosidl_generator_py/sentinel_interfaces/msg/_motor_status.py"
+  "/root/ros2_ws/build/sentinel_interfaces/rosidl_generator_py/sentinel_interfaces/msg/_motor_status_s.c"
+  "/root/ros2_ws/build/sentinel_interfaces/rosidl_generator_py/sentinel_interfaces/msg/_tracked_detection2_d.py"
+  "/root/ros2_ws/build/sentinel_interfaces/rosidl_generator_py/sentinel_interfaces/msg/_tracked_detection2_d_array.py"
+  "/root/ros2_ws/build/sentinel_interfaces/rosidl_generator_py/sentinel_interfaces/msg/_tracked_detection2_d_array_s.c"
+  "/root/ros2_ws/build/sentinel_interfaces/rosidl_generator_py/sentinel_interfaces/msg/_tracked_detection2_d_s.c"
+  "/root/ros2_ws/build/sentinel_interfaces/rosidl_generator_py/sentinel_interfaces/msg/_video_rx_status.py"
+  "/root/ros2_ws/build/sentinel_interfaces/rosidl_generator_py/sentinel_interfaces/msg/_video_rx_status_s.c"
+  "/root/ros2_ws/build/sentinel_interfaces/rosidl_generator_py/sentinel_interfaces/msg/_yolo_status.py"
+  "/root/ros2_ws/build/sentinel_interfaces/rosidl_generator_py/sentinel_interfaces/msg/_yolo_status_s.c"
+  "/root/ros2_ws/build/sentinel_interfaces/rosidl_generator_py/sentinel_interfaces/srv/__init__.py"
+  "/root/ros2_ws/build/sentinel_interfaces/rosidl_generator_py/sentinel_interfaces/srv/_set_bool_flag.py"
+  "/root/ros2_ws/build/sentinel_interfaces/rosidl_generator_py/sentinel_interfaces/srv/_set_bool_flag_s.c"
+  "/root/ros2_ws/build/sentinel_interfaces/rosidl_generator_py/sentinel_interfaces/srv/_set_threshold.py"
+  "/root/ros2_ws/build/sentinel_interfaces/rosidl_generator_py/sentinel_interfaces/srv/_set_threshold_s.c"
+  "CMakeFiles/sentinel_interfaces__py"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang )
+  include(CMakeFiles/sentinel_interfaces__py.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

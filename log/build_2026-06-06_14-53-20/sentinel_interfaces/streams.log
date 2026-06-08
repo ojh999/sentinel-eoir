@@ -1,0 +1,693 @@
+[0.008s] Invoking command in '/root/ros2_ws/build/sentinel_interfaces': /usr/bin/cmake /root/ros2_ws/src/sentinel_interfaces -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/sentinel_interfaces
+[0.113s] -- The C compiler identification is GNU 13.3.0
+[0.197s] -- The CXX compiler identification is GNU 13.3.0
+[0.225s] -- Detecting C compiler ABI info
+[0.318s] -- Detecting C compiler ABI info - done
+[0.325s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.326s] -- Detecting C compile features
+[0.327s] -- Detecting C compile features - done
+[0.336s] -- Detecting CXX compiler ABI info
+[0.437s] -- Detecting CXX compiler ABI info - done
+[0.448s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.449s] -- Detecting CXX compile features
+[0.449s] -- Detecting CXX compile features - done
+[0.453s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.582s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.687s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.691s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.743s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.781s] -- Found rosidl_adapter: 4.6.7 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.785s] -- Found builtin_interfaces: 2.0.3 (/opt/ros/jazzy/share/builtin_interfaces/cmake)
+[0.799s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[1.507s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[1.948s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.488s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.491s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[2.620s] -- Found PythonExtra: /usr/bin/python3  
+[3.102s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[3.157s] -- Configuring done (3.1s)
+[3.222s] -- Generating done (0.1s)
+[3.224s] CMake Warning:
+[3.224s]   Manually-specified variables were not used by the project:
+[3.224s] 
+[3.224s]     CATKIN_INSTALL_INTO_PREFIX_ROOT
+[3.224s] 
+[3.224s] 
+[3.234s] -- Build files have been written to: /root/ros2_ws/build/sentinel_interfaces
+[3.251s] Invoked command in '/root/ros2_ws/build/sentinel_interfaces' returned '0': /usr/bin/cmake /root/ros2_ws/src/sentinel_interfaces -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/sentinel_interfaces
+[3.251s] Invoking command in '/root/ros2_ws/build/sentinel_interfaces': /usr/bin/cmake --build /root/ros2_ws/build/sentinel_interfaces -- -j14 -l14
+[3.319s] [  0%] Generating type hashes for ROS interfaces
+[3.322s] [  0%] Built target ament_cmake_python_copy_sentinel_interfaces
+[3.474s] running egg_info
+[3.474s] creating sentinel_interfaces.egg-info
+[3.483s] writing sentinel_interfaces.egg-info/PKG-INFO
+[3.483s] writing dependency_links to sentinel_interfaces.egg-info/dependency_links.txt
+[3.483s] writing top-level names to sentinel_interfaces.egg-info/top_level.txt
+[3.484s] writing manifest file 'sentinel_interfaces.egg-info/SOURCES.txt'
+[3.508s] reading manifest file 'sentinel_interfaces.egg-info/SOURCES.txt'
+[3.508s] writing manifest file 'sentinel_interfaces.egg-info/SOURCES.txt'
+[3.536s] [  0%] Built target ament_cmake_python_build_sentinel_interfaces_egg
+[3.723s] [  0%] Built target sentinel_interfaces__rosidl_generator_type_description
+[3.734s] [  0%] Generating C code for ROS interfaces
+[3.744s] [  0%] Generating C++ code for ROS interfaces
+[4.535s] [  0%] Built target sentinel_interfaces__cpp
+[4.689s] [  1%] Building C object CMakeFiles/sentinel_interfaces__rosidl_generator_c.dir/rosidl_generator_c/sentinel_interfaces/msg/detail/motor_angle__description.c.o
+[4.689s] [  1%] Building C object CMakeFiles/sentinel_interfaces__rosidl_generator_c.dir/rosidl_generator_c/sentinel_interfaces/msg/detail/detection__functions.c.o
+[4.689s] [  2%] Building C object CMakeFiles/sentinel_interfaces__rosidl_generator_c.dir/rosidl_generator_c/sentinel_interfaces/msg/detail/detection__description.c.o
+[4.689s] [  4%] Building C object CMakeFiles/sentinel_interfaces__rosidl_generator_c.dir/rosidl_generator_c/sentinel_interfaces/msg/detail/detection2_d__type_support.c.o
+[4.689s] [  4%] Building C object CMakeFiles/sentinel_interfaces__rosidl_generator_c.dir/rosidl_generator_c/sentinel_interfaces/msg/detail/detection2_d__description.c.o
+[4.689s] [  5%] Building C object CMakeFiles/sentinel_interfaces__rosidl_generator_c.dir/rosidl_generator_c/sentinel_interfaces/msg/detail/motor_angle__functions.c.o
+[4.689s] [  6%] Building C object CMakeFiles/sentinel_interfaces__rosidl_generator_c.dir/rosidl_generator_c/sentinel_interfaces/msg/detail/detection__type_support.c.o
+[4.690s] [  6%] Building C object CMakeFiles/sentinel_interfaces__rosidl_generator_c.dir/rosidl_generator_c/sentinel_interfaces/msg/detail/detection2_d__functions.c.o
+[4.690s] [  6%] Building C object CMakeFiles/sentinel_interfaces__rosidl_generator_c.dir/rosidl_generator_c/sentinel_interfaces/msg/detail/frame_info__description.c.o
+[4.690s] [  7%] Building C object CMakeFiles/sentinel_interfaces__rosidl_generator_c.dir/rosidl_generator_c/sentinel_interfaces/msg/detail/frame_info__functions.c.o
+[4.690s] [  8%] Building C object CMakeFiles/sentinel_interfaces__rosidl_generator_c.dir/rosidl_generator_c/sentinel_interfaces/msg/detail/detection2_d_array__type_support.c.o
+[4.690s] [  8%] Building C object CMakeFiles/sentinel_interfaces__rosidl_generator_c.dir/rosidl_generator_c/sentinel_interfaces/msg/detail/detection2_d_array__description.c.o
+[4.690s] [  8%] Building C object CMakeFiles/sentinel_interfaces__rosidl_generator_c.dir/rosidl_generator_c/sentinel_interfaces/msg/detail/motor_angle__type_support.c.o
+[4.694s] [  9%] Building C object CMakeFiles/sentinel_interfaces__rosidl_generator_c.dir/rosidl_generator_c/sentinel_interfaces/msg/detail/detection2_d_array__functions.c.o
+[4.753s] [  9%] Building C object CMakeFiles/sentinel_interfaces__rosidl_generator_c.dir/rosidl_generator_c/sentinel_interfaces/msg/detail/frame_info__type_support.c.o
+[4.753s] [  9%] Building C object CMakeFiles/sentinel_interfaces__rosidl_generator_c.dir/rosidl_generator_c/sentinel_interfaces/msg/detail/frame_size__type_support.c.o
+[4.753s] [ 10%] Building C object CMakeFiles/sentinel_interfaces__rosidl_generator_c.dir/rosidl_generator_c/sentinel_interfaces/msg/detail/frame_size__description.c.o
+[4.753s] [ 11%] Building C object CMakeFiles/sentinel_interfaces__rosidl_generator_c.dir/rosidl_generator_c/sentinel_interfaces/msg/detail/motor_command__functions.c.o
+[4.753s] [ 12%] Building C object CMakeFiles/sentinel_interfaces__rosidl_generator_c.dir/rosidl_generator_c/sentinel_interfaces/msg/detail/frame_size__functions.c.o
+[4.753s] [ 13%] Building C object CMakeFiles/sentinel_interfaces__rosidl_generator_c.dir/rosidl_generator_c/sentinel_interfaces/msg/detail/motor_command__description.c.o
+[4.753s] [ 13%] Building C object CMakeFiles/sentinel_interfaces__rosidl_generator_c.dir/rosidl_generator_c/sentinel_interfaces/msg/detail/motor_command__type_support.c.o
+[4.753s] [ 14%] Building C object CMakeFiles/sentinel_interfaces__rosidl_generator_c.dir/rosidl_generator_c/sentinel_interfaces/msg/detail/motor_status__description.c.o
+[4.758s] [ 14%] Building C object CMakeFiles/sentinel_interfaces__rosidl_generator_c.dir/rosidl_generator_c/sentinel_interfaces/msg/detail/motor_status__functions.c.o
+[4.758s] [ 15%] Building C object CMakeFiles/sentinel_interfaces__rosidl_generator_c.dir/rosidl_generator_c/sentinel_interfaces/msg/detail/motor_status__type_support.c.o
+[4.761s] [ 15%] Building C object CMakeFiles/sentinel_interfaces__rosidl_generator_c.dir/rosidl_generator_c/sentinel_interfaces/msg/detail/tracked_detection2_d__functions.c.o
+[4.765s] [ 17%] Building C object CMakeFiles/sentinel_interfaces__rosidl_generator_c.dir/rosidl_generator_c/sentinel_interfaces/msg/detail/tracked_detection2_d__type_support.c.o
+[4.765s] [ 16%] Building C object CMakeFiles/sentinel_interfaces__rosidl_generator_c.dir/rosidl_generator_c/sentinel_interfaces/msg/detail/tracked_detection2_d__description.c.o
+[4.765s] [ 17%] Building C object CMakeFiles/sentinel_interfaces__rosidl_generator_c.dir/rosidl_generator_c/sentinel_interfaces/msg/detail/tracked_detection2_d_array__description.c.o
+[4.802s] [ 18%] Building C object CMakeFiles/sentinel_interfaces__rosidl_generator_c.dir/rosidl_generator_c/sentinel_interfaces/msg/detail/tracked_detection2_d_array__functions.c.o
+[4.808s] [ 19%] Building C object CMakeFiles/sentinel_interfaces__rosidl_generator_c.dir/rosidl_generator_c/sentinel_interfaces/msg/detail/tracked_detection2_d_array__type_support.c.o
+[4.808s] [ 20%] Building C object CMakeFiles/sentinel_interfaces__rosidl_generator_c.dir/rosidl_generator_c/sentinel_interfaces/msg/detail/video_rx_status__functions.c.o
+[4.808s] [ 20%] Building C object CMakeFiles/sentinel_interfaces__rosidl_generator_c.dir/rosidl_generator_c/sentinel_interfaces/msg/detail/video_rx_status__type_support.c.o
+[4.818s] [ 20%] Building C object CMakeFiles/sentinel_interfaces__rosidl_generator_c.dir/rosidl_generator_c/sentinel_interfaces/msg/detail/video_rx_status__description.c.o
+[4.819s] [ 21%] Building C object CMakeFiles/sentinel_interfaces__rosidl_generator_c.dir/rosidl_generator_c/sentinel_interfaces/msg/detail/yolo_status__description.c.o
+[4.824s] [ 21%] Building C object CMakeFiles/sentinel_interfaces__rosidl_generator_c.dir/rosidl_generator_c/sentinel_interfaces/msg/detail/yolo_status__type_support.c.o
+[4.834s] [ 22%] Building C object CMakeFiles/sentinel_interfaces__rosidl_generator_c.dir/rosidl_generator_c/sentinel_interfaces/msg/detail/yolo_status__functions.c.o
+[4.834s] [ 23%] Building C object CMakeFiles/sentinel_interfaces__rosidl_generator_c.dir/rosidl_generator_c/sentinel_interfaces/srv/detail/set_bool_flag__description.c.o
+[4.837s] [ 24%] Building C object CMakeFiles/sentinel_interfaces__rosidl_generator_c.dir/rosidl_generator_c/sentinel_interfaces/srv/detail/set_bool_flag__functions.c.o
+[4.848s] [ 25%] Building C object CMakeFiles/sentinel_interfaces__rosidl_generator_c.dir/rosidl_generator_c/sentinel_interfaces/srv/detail/set_threshold__type_support.c.o
+[4.848s] [ 24%] Building C object CMakeFiles/sentinel_interfaces__rosidl_generator_c.dir/rosidl_generator_c/sentinel_interfaces/srv/detail/set_bool_flag__type_support.c.o
+[4.848s] [ 25%] Building C object CMakeFiles/sentinel_interfaces__rosidl_generator_c.dir/rosidl_generator_c/sentinel_interfaces/srv/detail/set_threshold__functions.c.o
+[4.852s] [ 26%] Building C object CMakeFiles/sentinel_interfaces__rosidl_generator_c.dir/rosidl_generator_c/sentinel_interfaces/srv/detail/set_threshold__description.c.o
+[4.937s] [ 27%] Linking C shared library libsentinel_interfaces__rosidl_generator_c.so
+[4.975s] [ 27%] Built target sentinel_interfaces__rosidl_generator_c
+[4.987s] [ 28%] Generating C type support dispatch for ROS interfaces
+[4.988s] [ 29%] Generating C introspection for ROS interfaces
+[4.988s] [ 29%] Generating C type support for eProsima Fast-RTPS
+[4.988s] [ 30%] Generating C++ introspection for ROS interfaces
+[4.988s] [ 30%] Generating C++ type support for eProsima Fast-RTPS
+[4.988s] [ 31%] Generating C++ type support dispatch for ROS interfaces
+[5.446s] [ 33%] Building CXX object CMakeFiles/sentinel_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/sentinel_interfaces/msg/frame_size__type_support.cpp.o
+[5.447s] [ 31%] Building CXX object CMakeFiles/sentinel_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/sentinel_interfaces/msg/detection2_d_array__type_support.cpp.o
+[5.448s] [ 33%] Building CXX object CMakeFiles/sentinel_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/sentinel_interfaces/msg/detection__type_support.cpp.o
+[5.448s] [ 34%] Building CXX object CMakeFiles/sentinel_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/sentinel_interfaces/msg/frame_info__type_support.cpp.o
+[5.448s] [ 34%] Building CXX object CMakeFiles/sentinel_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/sentinel_interfaces/msg/detection2_d__type_support.cpp.o
+[5.448s] [ 35%] Building CXX object CMakeFiles/sentinel_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/sentinel_interfaces/msg/motor_angle__type_support.cpp.o
+[5.448s] [ 35%] Building CXX object CMakeFiles/sentinel_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/sentinel_interfaces/msg/motor_command__type_support.cpp.o
+[5.449s] [ 36%] Building CXX object CMakeFiles/sentinel_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/sentinel_interfaces/msg/motor_status__type_support.cpp.o
+[5.450s] [ 36%] Building CXX object CMakeFiles/sentinel_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/sentinel_interfaces/msg/tracked_detection2_d__type_support.cpp.o
+[5.509s] [ 38%] Building CXX object CMakeFiles/sentinel_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/sentinel_interfaces/msg/video_rx_status__type_support.cpp.o
+[5.509s] [ 36%] Building CXX object CMakeFiles/sentinel_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/sentinel_interfaces/msg/yolo_status__type_support.cpp.o
+[5.509s] [ 38%] Building CXX object CMakeFiles/sentinel_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/sentinel_interfaces/msg/tracked_detection2_d_array__type_support.cpp.o
+[5.509s] [ 39%] Building CXX object CMakeFiles/sentinel_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/sentinel_interfaces/srv/set_bool_flag__type_support.cpp.o
+[5.511s] [ 39%] Building CXX object CMakeFiles/sentinel_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/sentinel_interfaces/srv/set_threshold__type_support.cpp.o
+[5.565s] [ 39%] Building CXX object CMakeFiles/sentinel_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sentinel_interfaces/msg/motor_angle__type_support.cpp.o
+[5.593s] [ 40%] Building CXX object CMakeFiles/sentinel_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sentinel_interfaces/msg/detection__type_support.cpp.o
+[5.603s] [ 41%] Building CXX object CMakeFiles/sentinel_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sentinel_interfaces/msg/detection2_d__type_support.cpp.o
+[5.607s] [ 41%] Building CXX object CMakeFiles/sentinel_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sentinel_interfaces/msg/detection2_d_array__type_support.cpp.o
+[5.607s] [ 42%] Building CXX object CMakeFiles/sentinel_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sentinel_interfaces/msg/frame_info__type_support.cpp.o
+[5.608s] [ 43%] Linking CXX shared library libsentinel_interfaces__rosidl_typesupport_c.so
+[5.630s] [ 43%] Building CXX object CMakeFiles/sentinel_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sentinel_interfaces/msg/frame_size__type_support.cpp.o
+[5.675s] [ 44%] Building CXX object CMakeFiles/sentinel_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sentinel_interfaces/msg/motor_command__type_support.cpp.o
+[5.682s] [ 45%] Building CXX object CMakeFiles/sentinel_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sentinel_interfaces/msg/motor_status__type_support.cpp.o
+[5.682s] [ 45%] Building CXX object CMakeFiles/sentinel_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sentinel_interfaces/msg/tracked_detection2_d__type_support.cpp.o
+[5.721s] [ 45%] Building CXX object CMakeFiles/sentinel_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sentinel_interfaces/msg/detail/motor_angle__type_support.cpp.o
+[5.741s] [ 45%] Built target sentinel_interfaces__rosidl_typesupport_c
+[5.796s] [ 46%] Building CXX object CMakeFiles/sentinel_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sentinel_interfaces/msg/tracked_detection2_d_array__type_support.cpp.o
+[5.805s] [ 47%] Building C object CMakeFiles/sentinel_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sentinel_interfaces/msg/detail/motor_angle__type_support.c.o
+[5.861s] [ 47%] Building C object CMakeFiles/sentinel_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sentinel_interfaces/msg/detail/detection__type_support.c.o
+[5.872s] [ 47%] Building CXX object CMakeFiles/sentinel_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sentinel_interfaces/msg/video_rx_status__type_support.cpp.o
+[5.906s] [ 48%] Building C object CMakeFiles/sentinel_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sentinel_interfaces/msg/detail/detection2_d__type_support.c.o
+[5.917s] [ 49%] Building CXX object CMakeFiles/sentinel_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sentinel_interfaces/msg/yolo_status__type_support.cpp.o
+[5.934s] [ 50%] Building CXX object CMakeFiles/sentinel_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sentinel_interfaces/srv/set_bool_flag__type_support.cpp.o
+[5.956s] [ 51%] Building CXX object CMakeFiles/sentinel_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sentinel_interfaces/msg/detail/detection__type_support.cpp.o
+[5.974s] [ 51%] Building C object CMakeFiles/sentinel_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sentinel_interfaces/msg/detail/detection2_d_array__type_support.c.o
+[5.989s] [ 52%] Building CXX object CMakeFiles/sentinel_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sentinel_interfaces/msg/detail/detection2_d__type_support.cpp.o
+[6.022s] [ 52%] Building CXX object CMakeFiles/sentinel_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sentinel_interfaces/msg/detail/detection2_d_array__type_support.cpp.o
+[6.032s] [ 52%] Building CXX object CMakeFiles/sentinel_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sentinel_interfaces/srv/set_threshold__type_support.cpp.o
+[6.051s] [ 53%] Building CXX object CMakeFiles/sentinel_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sentinel_interfaces/msg/detail/frame_info__type_support.cpp.o
+[6.051s] [ 54%] Building C object CMakeFiles/sentinel_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sentinel_interfaces/msg/detail/frame_info__type_support.c.o
+[6.066s] [ 54%] Building CXX object CMakeFiles/sentinel_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sentinel_interfaces/msg/detail/frame_size__type_support.cpp.o
+[6.085s] [ 55%] Building CXX object CMakeFiles/sentinel_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sentinel_interfaces/msg/detail/motor_angle__type_support_c.cpp.o
+[6.116s] [ 56%] Building C object CMakeFiles/sentinel_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sentinel_interfaces/msg/detail/frame_size__type_support.c.o
+[6.166s] [ 57%] Building CXX object CMakeFiles/sentinel_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sentinel_interfaces/msg/detail/motor_command__type_support.cpp.o
+[6.172s] [ 57%] Building C object CMakeFiles/sentinel_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sentinel_interfaces/msg/detail/motor_command__type_support.c.o
+[6.188s] [ 58%] Building CXX object CMakeFiles/sentinel_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sentinel_interfaces/msg/detail/motor_status__type_support.cpp.o
+[6.209s] [ 59%] Building CXX object CMakeFiles/sentinel_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sentinel_interfaces/msg/detail/dds_fastrtps/motor_angle__type_support.cpp.o
+[6.233s] [ 59%] Building CXX object CMakeFiles/sentinel_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sentinel_interfaces/msg/detail/dds_fastrtps/detection__type_support.cpp.o
+[6.236s] [ 60%] Building C object CMakeFiles/sentinel_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sentinel_interfaces/msg/detail/motor_status__type_support.c.o
+[6.250s] [ 61%] Building CXX object CMakeFiles/sentinel_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sentinel_interfaces/msg/detail/dds_fastrtps/detection2_d__type_support.cpp.o
+[6.306s] [ 61%] Building C object CMakeFiles/sentinel_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sentinel_interfaces/msg/detail/tracked_detection2_d__type_support.c.o
+[6.315s] [ 62%] Building C object CMakeFiles/sentinel_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sentinel_interfaces/msg/detail/tracked_detection2_d_array__type_support.c.o
+[6.347s] [ 62%] Building CXX object CMakeFiles/sentinel_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sentinel_interfaces/msg/detail/tracked_detection2_d__type_support.cpp.o
+[6.377s] [ 63%] Building C object CMakeFiles/sentinel_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sentinel_interfaces/msg/detail/video_rx_status__type_support.c.o
+[6.393s] [ 64%] Building CXX object CMakeFiles/sentinel_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sentinel_interfaces/msg/detail/tracked_detection2_d_array__type_support.cpp.o
+[6.395s] [ 64%] Building CXX object CMakeFiles/sentinel_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sentinel_interfaces/msg/detail/video_rx_status__type_support.cpp.o
+[6.412s] [ 64%] Building C object CMakeFiles/sentinel_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sentinel_interfaces/msg/detail/yolo_status__type_support.c.o
+[6.415s] [ 65%] Building C object CMakeFiles/sentinel_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sentinel_interfaces/srv/detail/set_bool_flag__type_support.c.o
+[6.436s] [ 66%] Building CXX object CMakeFiles/sentinel_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sentinel_interfaces/msg/detail/yolo_status__type_support.cpp.o
+[6.462s] [ 67%] Building CXX object CMakeFiles/sentinel_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sentinel_interfaces/srv/detail/set_bool_flag__type_support.cpp.o
+[6.470s] [ 67%] Building C object CMakeFiles/sentinel_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sentinel_interfaces/srv/detail/set_threshold__type_support.c.o
+[6.482s] [ 68%] Building CXX object CMakeFiles/sentinel_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sentinel_interfaces/msg/detail/detection__type_support_c.cpp.o
+[6.487s] [ 68%] Building CXX object CMakeFiles/sentinel_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sentinel_interfaces/srv/detail/set_threshold__type_support.cpp.o
+[6.518s] [ 69%] Linking C shared library libsentinel_interfaces__rosidl_typesupport_introspection_c.so
+[6.542s] [ 70%] Building CXX object CMakeFiles/sentinel_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sentinel_interfaces/msg/detail/dds_fastrtps/detection2_d_array__type_support.cpp.o
+[6.566s] [ 71%] Linking CXX shared library libsentinel_interfaces__rosidl_typesupport_cpp.so
+[6.574s] [ 71%] Building CXX object CMakeFiles/sentinel_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sentinel_interfaces/msg/detail/detection2_d__type_support_c.cpp.o
+[6.574s] [ 71%] Built target sentinel_interfaces__rosidl_typesupport_introspection_c
+[6.582s] [ 72%] Building CXX object CMakeFiles/sentinel_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sentinel_interfaces/msg/detail/detection2_d_array__type_support_c.cpp.o
+[6.596s] [ 72%] Building CXX object CMakeFiles/sentinel_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sentinel_interfaces/msg/detail/frame_info__type_support_c.cpp.o
+[6.620s] [ 72%] Building CXX object CMakeFiles/sentinel_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sentinel_interfaces/msg/detail/dds_fastrtps/frame_info__type_support.cpp.o
+[6.627s] [ 73%] Building CXX object CMakeFiles/sentinel_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sentinel_interfaces/msg/detail/dds_fastrtps/frame_size__type_support.cpp.o
+[6.643s] [ 73%] Building CXX object CMakeFiles/sentinel_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sentinel_interfaces/msg/detail/dds_fastrtps/motor_command__type_support.cpp.o
+[6.651s] [ 73%] Built target sentinel_interfaces__rosidl_typesupport_cpp
+[6.655s] [ 74%] Building CXX object CMakeFiles/sentinel_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sentinel_interfaces/msg/detail/dds_fastrtps/motor_status__type_support.cpp.o
+[6.663s] [ 75%] Building CXX object CMakeFiles/sentinel_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sentinel_interfaces/msg/detail/frame_size__type_support_c.cpp.o
+[6.682s] [ 76%] Building CXX object CMakeFiles/sentinel_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sentinel_interfaces/msg/detail/motor_command__type_support_c.cpp.o
+[6.700s] [ 77%] Building CXX object CMakeFiles/sentinel_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sentinel_interfaces/msg/detail/dds_fastrtps/tracked_detection2_d__type_support.cpp.o
+[6.798s] [ 77%] Building CXX object CMakeFiles/sentinel_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sentinel_interfaces/msg/detail/dds_fastrtps/tracked_detection2_d_array__type_support.cpp.o
+[6.869s] [ 78%] Linking CXX shared library libsentinel_interfaces__rosidl_typesupport_introspection_cpp.so
+[6.953s] [ 78%] Building CXX object CMakeFiles/sentinel_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sentinel_interfaces/msg/detail/motor_status__type_support_c.cpp.o
+[6.955s] [ 78%] Built target sentinel_interfaces__rosidl_typesupport_introspection_cpp
+[6.966s] [ 79%] Building CXX object CMakeFiles/sentinel_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sentinel_interfaces/msg/detail/tracked_detection2_d__type_support_c.cpp.o
+[6.986s] [ 80%] Building CXX object CMakeFiles/sentinel_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sentinel_interfaces/msg/detail/tracked_detection2_d_array__type_support_c.cpp.o
+[6.993s] [ 81%] Building CXX object CMakeFiles/sentinel_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sentinel_interfaces/msg/detail/dds_fastrtps/video_rx_status__type_support.cpp.o
+[7.028s] [ 82%] Building CXX object CMakeFiles/sentinel_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sentinel_interfaces/msg/detail/dds_fastrtps/yolo_status__type_support.cpp.o
+[7.042s] [ 82%] Building CXX object CMakeFiles/sentinel_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sentinel_interfaces/msg/detail/video_rx_status__type_support_c.cpp.o
+[7.054s] [ 82%] Building CXX object CMakeFiles/sentinel_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sentinel_interfaces/srv/detail/dds_fastrtps/set_bool_flag__type_support.cpp.o
+[7.130s] [ 83%] Building CXX object CMakeFiles/sentinel_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sentinel_interfaces/msg/detail/yolo_status__type_support_c.cpp.o
+[7.150s] [ 84%] Building CXX object CMakeFiles/sentinel_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sentinel_interfaces/srv/detail/dds_fastrtps/set_threshold__type_support.cpp.o
+[7.170s] [ 84%] Building CXX object CMakeFiles/sentinel_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sentinel_interfaces/srv/detail/set_bool_flag__type_support_c.cpp.o
+[7.233s] [ 85%] Building CXX object CMakeFiles/sentinel_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sentinel_interfaces/srv/detail/set_threshold__type_support_c.cpp.o
+[7.647s] [ 86%] Linking CXX shared library libsentinel_interfaces__rosidl_typesupport_fastrtps_c.so
+[7.692s] [ 86%] Linking CXX shared library libsentinel_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[7.746s] [ 86%] Built target sentinel_interfaces__rosidl_typesupport_fastrtps_c
+[7.777s] [ 86%] Built target sentinel_interfaces__rosidl_typesupport_fastrtps_cpp
+[7.795s] [ 86%] Built target sentinel_interfaces
+[7.812s] [ 87%] Generating Python code for ROS interfaces
+[9.037s] [ 87%] Built target sentinel_interfaces__py
+[9.057s] [ 87%] Building C object CMakeFiles/sentinel_interfaces__rosidl_generator_py.dir/rosidl_generator_py/sentinel_interfaces/msg/_detection2_d_s.c.o
+[9.057s] [ 88%] Building C object CMakeFiles/sentinel_interfaces__rosidl_generator_py.dir/rosidl_generator_py/sentinel_interfaces/msg/_motor_command_s.c.o
+[9.057s] [ 89%] Building C object CMakeFiles/sentinel_interfaces__rosidl_generator_py.dir/rosidl_generator_py/sentinel_interfaces/msg/_tracked_detection2_d_s.c.o
+[9.057s] [ 89%] Building C object CMakeFiles/sentinel_interfaces__rosidl_generator_py.dir/rosidl_generator_py/sentinel_interfaces/msg/_frame_size_s.c.o
+[9.061s] [ 90%] Building C object CMakeFiles/sentinel_interfaces__rosidl_generator_py.dir/rosidl_generator_py/sentinel_interfaces/msg/_frame_info_s.c.o
+[9.061s] [ 91%] Building C object CMakeFiles/sentinel_interfaces__rosidl_generator_py.dir/rosidl_generator_py/sentinel_interfaces/msg/_detection2_d_array_s.c.o
+[9.061s] [ 92%] Building C object CMakeFiles/sentinel_interfaces__rosidl_generator_py.dir/rosidl_generator_py/sentinel_interfaces/msg/_detection_s.c.o
+[9.061s] [ 92%] Building C object CMakeFiles/sentinel_interfaces__rosidl_generator_py.dir/rosidl_generator_py/sentinel_interfaces/msg/_motor_angle_s.c.o
+[9.063s] [ 92%] Building C object CMakeFiles/sentinel_interfaces__rosidl_generator_py.dir/rosidl_generator_py/sentinel_interfaces/msg/_motor_status_s.c.o
+[9.067s] [ 93%] Building C object CMakeFiles/sentinel_interfaces__rosidl_generator_py.dir/rosidl_generator_py/sentinel_interfaces/msg/_tracked_detection2_d_array_s.c.o
+[9.089s] [ 94%] Building C object CMakeFiles/sentinel_interfaces__rosidl_generator_py.dir/rosidl_generator_py/sentinel_interfaces/srv/_set_threshold_s.c.o
+[9.097s] [ 94%] Building C object CMakeFiles/sentinel_interfaces__rosidl_generator_py.dir/rosidl_generator_py/sentinel_interfaces/msg/_video_rx_status_s.c.o
+[9.103s] [ 95%] Building C object CMakeFiles/sentinel_interfaces__rosidl_generator_py.dir/rosidl_generator_py/sentinel_interfaces/msg/_yolo_status_s.c.o
+[9.103s] [ 95%] Building C object CMakeFiles/sentinel_interfaces__rosidl_generator_py.dir/rosidl_generator_py/sentinel_interfaces/srv/_set_bool_flag_s.c.o
+[9.337s] [ 96%] Linking C shared library libsentinel_interfaces__rosidl_generator_py.so
+[9.393s] [ 96%] Built target sentinel_interfaces__rosidl_generator_py
+[9.414s] [ 97%] Building C object CMakeFiles/sentinel_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/sentinel_interfaces/_sentinel_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o
+[9.414s] [ 98%] Building C object CMakeFiles/sentinel_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/sentinel_interfaces/_sentinel_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o
+[9.416s] [ 98%] Building C object CMakeFiles/sentinel_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/sentinel_interfaces/_sentinel_interfaces_s.ep.rosidl_typesupport_c.c.o
+[9.559s] [ 98%] Linking C shared module rosidl_generator_py/sentinel_interfaces/sentinel_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[9.559s] [ 99%] Linking C shared module rosidl_generator_py/sentinel_interfaces/sentinel_interfaces_s__rosidl_typesupport_c.so
+[9.563s] [100%] Linking C shared module rosidl_generator_py/sentinel_interfaces/sentinel_interfaces_s__rosidl_typesupport_introspection_c.so
+[9.594s] [100%] Built target sentinel_interfaces_s__rosidl_typesupport_fastrtps_c
+[9.595s] [100%] Built target sentinel_interfaces_s__rosidl_typesupport_c
+[9.596s] [100%] Built target sentinel_interfaces_s__rosidl_typesupport_introspection_c
+[9.614s] Invoked command in '/root/ros2_ws/build/sentinel_interfaces' returned '0': /usr/bin/cmake --build /root/ros2_ws/build/sentinel_interfaces -- -j14 -l14
+[9.626s] Invoking command in '/root/ros2_ws/build/sentinel_interfaces': /usr/bin/cmake --install /root/ros2_ws/build/sentinel_interfaces
+[9.635s] -- Install configuration: ""
+[9.635s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/share/ament_index/resource_index/rosidl_interfaces/sentinel_interfaces
+[9.636s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/share/sentinel_interfaces/msg/MotorAngle.json
+[9.636s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/share/sentinel_interfaces/msg/Detection.json
+[9.636s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/share/sentinel_interfaces/msg/Detection2D.json
+[9.636s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/share/sentinel_interfaces/msg/Detection2DArray.json
+[9.636s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/share/sentinel_interfaces/msg/FrameInfo.json
+[9.636s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/share/sentinel_interfaces/msg/FrameSize.json
+[9.636s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/share/sentinel_interfaces/msg/MotorCommand.json
+[9.636s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/share/sentinel_interfaces/msg/MotorStatus.json
+[9.637s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/share/sentinel_interfaces/msg/TrackedDetection2D.json
+[9.637s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/share/sentinel_interfaces/msg/TrackedDetection2DArray.json
+[9.637s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/share/sentinel_interfaces/msg/VideoRxStatus.json
+[9.637s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/share/sentinel_interfaces/msg/YoloStatus.json
+[9.637s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/share/sentinel_interfaces/srv/SetBoolFlag.json
+[9.637s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/share/sentinel_interfaces/srv/SetThreshold.json
+[9.637s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces
+[9.638s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/srv
+[9.638s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/srv/set_bool_flag.h
+[9.638s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/srv/set_threshold.h
+[9.638s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/srv/detail
+[9.638s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/srv/detail/set_threshold__description.c
+[9.638s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/srv/detail/set_bool_flag__type_support.h
+[9.638s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/srv/detail/set_threshold__struct.h
+[9.638s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/srv/detail/set_bool_flag__type_support.c
+[9.638s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/srv/detail/set_bool_flag__functions.h
+[9.639s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/srv/detail/set_bool_flag__description.c
+[9.639s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/srv/detail/set_threshold__type_support.h
+[9.639s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/srv/detail/set_bool_flag__struct.h
+[9.639s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/srv/detail/set_threshold__type_support.c
+[9.639s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/srv/detail/set_threshold__functions.c
+[9.639s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/srv/detail/set_bool_flag__functions.c
+[9.639s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/srv/detail/set_threshold__functions.h
+[9.639s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg
+[9.639s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/frame_info.h
+[9.640s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/motor_command.h
+[9.640s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detection.h
+[9.640s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/tracked_detection2_d_array.h
+[9.640s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/frame_size.h
+[9.640s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/motor_angle.h
+[9.640s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/rosidl_generator_c__visibility_control.h
+[9.640s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detection2_d_array.h
+[9.640s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/tracked_detection2_d.h
+[9.640s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detection2_d.h
+[9.641s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/yolo_status.h
+[9.641s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/motor_status.h
+[9.641s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/video_rx_status.h
+[9.641s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail
+[9.641s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/tracked_detection2_d__functions.c
+[9.641s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/detection__functions.h
+[9.641s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/motor_status__type_support.c
+[9.641s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/yolo_status__functions.h
+[9.641s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/detection2_d_array__functions.h
+[9.642s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/video_rx_status__description.c
+[9.642s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/detection__struct.h
+[9.642s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/detection2_d_array__type_support.c
+[9.642s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/yolo_status__functions.c
+[9.642s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/yolo_status__type_support.h
+[9.644s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/video_rx_status__functions.c
+[9.644s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/detection__type_support.c
+[9.644s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/tracked_detection2_d__type_support.c
+[9.644s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/motor_command__struct.h
+[9.644s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/detection2_d_array__struct.h
+[9.644s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/frame_size__type_support.c
+[9.644s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/detection__functions.c
+[9.644s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/tracked_detection2_d_array__type_support.h
+[9.644s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/frame_info__description.c
+[9.644s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/frame_info__type_support.h
+[9.644s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/frame_info__functions.h
+[9.644s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/motor_status__type_support.h
+[9.644s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/detection2_d_array__functions.c
+[9.646s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/motor_angle__struct.h
+[9.646s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/motor_status__functions.h
+[9.646s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/frame_info__struct.h
+[9.646s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/motor_command__type_support.h
+[9.646s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/detection2_d__functions.h
+[9.646s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/tracked_detection2_d__type_support.h
+[9.646s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/detection2_d__struct.h
+[9.646s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/detection2_d_array__type_support.h
+[9.646s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/tracked_detection2_d_array__functions.h
+[9.646s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/motor_command__description.c
+[9.646s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/detection2_d__type_support.c
+[9.646s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/motor_status__functions.c
+[9.646s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/motor_angle__functions.h
+[9.647s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/video_rx_status__type_support.c
+[9.647s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/frame_size__functions.c
+[9.647s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/tracked_detection2_d_array__functions.c
+[9.647s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/motor_angle__functions.c
+[9.647s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/tracked_detection2_d_array__struct.h
+[9.647s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/detection__description.c
+[9.647s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/motor_angle__type_support.h
+[9.647s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/video_rx_status__type_support.h
+[9.647s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/video_rx_status__struct.h
+[9.647s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/tracked_detection2_d_array__description.c
+[9.647s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/video_rx_status__functions.h
+[9.647s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/frame_size__struct.h
+[9.647s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/yolo_status__struct.h
+[9.647s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/frame_info__functions.c
+[9.647s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/frame_size__functions.h
+[9.647s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/frame_size__description.c
+[9.647s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/motor_command__functions.c
+[9.647s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/motor_angle__type_support.c
+[9.647s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/motor_command__type_support.c
+[9.647s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/motor_status__description.c
+[9.647s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/tracked_detection2_d__functions.h
+[9.648s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/detection2_d__functions.c
+[9.648s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/tracked_detection2_d_array__type_support.c
+[9.648s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/motor_command__functions.h
+[9.648s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/tracked_detection2_d__struct.h
+[9.648s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/yolo_status__type_support.c
+[9.648s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/detection2_d__type_support.h
+[9.648s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/frame_info__type_support.c
+[9.648s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/detection__type_support.h
+[9.648s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/motor_angle__description.c
+[9.648s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/yolo_status__description.c
+[9.648s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/frame_size__type_support.h
+[9.648s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/detection2_d_array__description.c
+[9.648s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/detection2_d__description.c
+[9.648s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/motor_status__struct.h
+[9.648s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/tracked_detection2_d__description.c
+[9.649s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/share/sentinel_interfaces/environment/library_path.sh
+[9.649s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/share/sentinel_interfaces/environment/library_path.dsv
+[9.649s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/lib/libsentinel_interfaces__rosidl_generator_c.so
+[9.652s] -- Set non-toolchain portion of runtime path of "/root/ros2_ws/install/sentinel_interfaces/lib/libsentinel_interfaces__rosidl_generator_c.so" to ""
+[9.653s] -- Up-to-date: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces
+[9.653s] -- Up-to-date: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/srv
+[9.653s] -- Up-to-date: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/srv/detail
+[9.653s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/srv/detail/set_threshold__rosidl_typesupport_fastrtps_c.h
+[9.653s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/srv/detail/set_bool_flag__rosidl_typesupport_fastrtps_c.h
+[9.653s] -- Up-to-date: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg
+[9.653s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[9.653s] -- Up-to-date: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail
+[9.653s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/yolo_status__rosidl_typesupport_fastrtps_c.h
+[9.653s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/motor_command__rosidl_typesupport_fastrtps_c.h
+[9.653s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/frame_info__rosidl_typesupport_fastrtps_c.h
+[9.653s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/video_rx_status__rosidl_typesupport_fastrtps_c.h
+[9.653s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/motor_status__rosidl_typesupport_fastrtps_c.h
+[9.653s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/detection2_d_array__rosidl_typesupport_fastrtps_c.h
+[9.653s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/detection__rosidl_typesupport_fastrtps_c.h
+[9.653s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/tracked_detection2_d_array__rosidl_typesupport_fastrtps_c.h
+[9.653s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/frame_size__rosidl_typesupport_fastrtps_c.h
+[9.653s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/tracked_detection2_d__rosidl_typesupport_fastrtps_c.h
+[9.653s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/detection2_d__rosidl_typesupport_fastrtps_c.h
+[9.653s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/motor_angle__rosidl_typesupport_fastrtps_c.h
+[9.653s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/lib/libsentinel_interfaces__rosidl_typesupport_fastrtps_c.so
+[9.654s] -- Set non-toolchain portion of runtime path of "/root/ros2_ws/install/sentinel_interfaces/lib/libsentinel_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[9.654s] -- Up-to-date: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces
+[9.654s] -- Up-to-date: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/srv
+[9.654s] -- Up-to-date: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/srv/detail
+[9.654s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/srv/detail/set_bool_flag__type_support.c
+[9.654s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/srv/detail/set_bool_flag__rosidl_typesupport_introspection_c.h
+[9.654s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/srv/detail/set_threshold__rosidl_typesupport_introspection_c.h
+[9.654s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/srv/detail/set_threshold__type_support.c
+[9.654s] -- Up-to-date: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg
+[9.654s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[9.654s] -- Up-to-date: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail
+[9.654s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/motor_status__type_support.c
+[9.654s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/motor_command__rosidl_typesupport_introspection_c.h
+[9.654s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/yolo_status__rosidl_typesupport_introspection_c.h
+[9.654s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/detection2_d_array__type_support.c
+[9.654s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/detection__type_support.c
+[9.654s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/tracked_detection2_d__type_support.c
+[9.654s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/frame_size__type_support.c
+[9.654s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/frame_size__rosidl_typesupport_introspection_c.h
+[9.654s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/detection__rosidl_typesupport_introspection_c.h
+[9.654s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/frame_info__rosidl_typesupport_introspection_c.h
+[9.654s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/motor_status__rosidl_typesupport_introspection_c.h
+[9.655s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/detection2_d__rosidl_typesupport_introspection_c.h
+[9.655s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/detection2_d__type_support.c
+[9.655s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/video_rx_status__rosidl_typesupport_introspection_c.h
+[9.655s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/video_rx_status__type_support.c
+[9.655s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/motor_angle__type_support.c
+[9.655s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/motor_command__type_support.c
+[9.655s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/tracked_detection2_d_array__rosidl_typesupport_introspection_c.h
+[9.655s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/tracked_detection2_d_array__type_support.c
+[9.655s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/motor_angle__rosidl_typesupport_introspection_c.h
+[9.655s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/yolo_status__type_support.c
+[9.655s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/frame_info__type_support.c
+[9.655s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/tracked_detection2_d__rosidl_typesupport_introspection_c.h
+[9.655s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/detection2_d_array__rosidl_typesupport_introspection_c.h
+[9.655s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/lib/libsentinel_interfaces__rosidl_typesupport_introspection_c.so
+[9.655s] -- Set non-toolchain portion of runtime path of "/root/ros2_ws/install/sentinel_interfaces/lib/libsentinel_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[9.655s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/lib/libsentinel_interfaces__rosidl_typesupport_c.so
+[9.655s] -- Set non-toolchain portion of runtime path of "/root/ros2_ws/install/sentinel_interfaces/lib/libsentinel_interfaces__rosidl_typesupport_c.so" to ""
+[9.655s] -- Up-to-date: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces
+[9.655s] -- Up-to-date: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/srv
+[9.655s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/srv/set_bool_flag.hpp
+[9.656s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/srv/set_threshold.hpp
+[9.656s] -- Up-to-date: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/srv/detail
+[9.656s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/srv/detail/set_threshold__type_support.hpp
+[9.656s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/srv/detail/set_threshold__struct.hpp
+[9.656s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/srv/detail/set_bool_flag__traits.hpp
+[9.656s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/srv/detail/set_bool_flag__builder.hpp
+[9.656s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/srv/detail/set_bool_flag__type_support.hpp
+[9.656s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/srv/detail/set_threshold__builder.hpp
+[9.656s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/srv/detail/set_bool_flag__struct.hpp
+[9.656s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/srv/detail/set_threshold__traits.hpp
+[9.656s] -- Up-to-date: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg
+[9.656s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/video_rx_status.hpp
+[9.656s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/motor_command.hpp
+[9.656s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detection2_d_array.hpp
+[9.657s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/motor_status.hpp
+[9.657s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/tracked_detection2_d_array.hpp
+[9.657s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detection2_d.hpp
+[9.657s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/frame_size.hpp
+[9.657s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detection.hpp
+[9.657s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/motor_angle.hpp
+[9.657s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/frame_info.hpp
+[9.657s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/tracked_detection2_d.hpp
+[9.657s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[9.657s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/yolo_status.hpp
+[9.657s] -- Up-to-date: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail
+[9.657s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/detection2_d__traits.hpp
+[9.658s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/motor_status__struct.hpp
+[9.658s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/frame_size__type_support.hpp
+[9.658s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/detection2_d_array__type_support.hpp
+[9.658s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/yolo_status__traits.hpp
+[9.658s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/motor_angle__struct.hpp
+[9.658s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/frame_info__type_support.hpp
+[9.658s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/motor_command__traits.hpp
+[9.658s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/tracked_detection2_d__type_support.hpp
+[9.658s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/frame_size__struct.hpp
+[9.658s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/yolo_status__struct.hpp
+[9.658s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/motor_angle__type_support.hpp
+[9.659s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/frame_info__builder.hpp
+[9.659s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/video_rx_status__traits.hpp
+[9.659s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/detection2_d_array__traits.hpp
+[9.659s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/tracked_detection2_d__builder.hpp
+[9.659s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/tracked_detection2_d_array__type_support.hpp
+[9.659s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/yolo_status__builder.hpp
+[9.659s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/tracked_detection2_d__traits.hpp
+[9.659s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/detection2_d__type_support.hpp
+[9.659s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/detection2_d__struct.hpp
+[9.659s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/tracked_detection2_d_array__traits.hpp
+[9.660s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/detection2_d_array__struct.hpp
+[9.660s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/detection2_d_array__builder.hpp
+[9.660s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/frame_size__builder.hpp
+[9.660s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/motor_status__type_support.hpp
+[9.660s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/motor_status__traits.hpp
+[9.660s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/video_rx_status__type_support.hpp
+[9.660s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/tracked_detection2_d__struct.hpp
+[9.660s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/detection__builder.hpp
+[9.660s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/frame_size__traits.hpp
+[9.660s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/tracked_detection2_d_array__builder.hpp
+[9.660s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/tracked_detection2_d_array__struct.hpp
+[9.661s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/motor_status__builder.hpp
+[9.661s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/motor_command__type_support.hpp
+[9.661s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/motor_angle__traits.hpp
+[9.661s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/frame_info__traits.hpp
+[9.661s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/motor_command__builder.hpp
+[9.661s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/frame_info__struct.hpp
+[9.661s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/detection2_d__builder.hpp
+[9.661s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/yolo_status__type_support.hpp
+[9.661s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/detection__type_support.hpp
+[9.661s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/video_rx_status__struct.hpp
+[9.661s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/detection__struct.hpp
+[9.662s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/video_rx_status__builder.hpp
+[9.662s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/motor_command__struct.hpp
+[9.662s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/detection__traits.hpp
+[9.662s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/motor_angle__builder.hpp
+[9.662s] -- Up-to-date: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces
+[9.662s] -- Up-to-date: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/srv
+[9.662s] -- Up-to-date: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/srv/detail
+[9.663s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/srv/detail/set_bool_flag__rosidl_typesupport_fastrtps_cpp.hpp
+[9.663s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/srv/detail/dds_fastrtps
+[9.663s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/srv/detail/set_threshold__rosidl_typesupport_fastrtps_cpp.hpp
+[9.663s] -- Up-to-date: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg
+[9.663s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[9.663s] -- Up-to-date: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail
+[9.663s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/detection2_d_array__rosidl_typesupport_fastrtps_cpp.hpp
+[9.663s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/yolo_status__rosidl_typesupport_fastrtps_cpp.hpp
+[9.663s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/detection2_d__rosidl_typesupport_fastrtps_cpp.hpp
+[9.663s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/motor_command__rosidl_typesupport_fastrtps_cpp.hpp
+[9.663s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/tracked_detection2_d__rosidl_typesupport_fastrtps_cpp.hpp
+[9.663s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/dds_fastrtps
+[9.663s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/video_rx_status__rosidl_typesupport_fastrtps_cpp.hpp
+[9.663s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/frame_info__rosidl_typesupport_fastrtps_cpp.hpp
+[9.664s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/motor_angle__rosidl_typesupport_fastrtps_cpp.hpp
+[9.664s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/frame_size__rosidl_typesupport_fastrtps_cpp.hpp
+[9.664s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/detection__rosidl_typesupport_fastrtps_cpp.hpp
+[9.664s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/tracked_detection2_d_array__rosidl_typesupport_fastrtps_cpp.hpp
+[9.664s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/motor_status__rosidl_typesupport_fastrtps_cpp.hpp
+[9.664s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/lib/libsentinel_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[9.665s] -- Set non-toolchain portion of runtime path of "/root/ros2_ws/install/sentinel_interfaces/lib/libsentinel_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[9.665s] -- Up-to-date: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces
+[9.665s] -- Up-to-date: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/srv
+[9.665s] -- Up-to-date: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/srv/detail
+[9.665s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/srv/detail/set_bool_flag__type_support.cpp
+[9.665s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/srv/detail/set_bool_flag__rosidl_typesupport_introspection_cpp.hpp
+[9.665s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/srv/detail/set_threshold__rosidl_typesupport_introspection_cpp.hpp
+[9.665s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/srv/detail/set_threshold__type_support.cpp
+[9.665s] -- Up-to-date: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg
+[9.665s] -- Up-to-date: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail
+[9.665s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/motor_angle__type_support.cpp
+[9.665s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/detection2_d__type_support.cpp
+[9.665s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/motor_command__rosidl_typesupport_introspection_cpp.hpp
+[9.665s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/detection__rosidl_typesupport_introspection_cpp.hpp
+[9.666s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/frame_info__type_support.cpp
+[9.666s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/motor_angle__rosidl_typesupport_introspection_cpp.hpp
+[9.666s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/motor_status__rosidl_typesupport_introspection_cpp.hpp
+[9.666s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/detection2_d__rosidl_typesupport_introspection_cpp.hpp
+[9.666s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/detection__type_support.cpp
+[9.666s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/frame_size__type_support.cpp
+[9.666s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/video_rx_status__type_support.cpp
+[9.666s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/tracked_detection2_d_array__type_support.cpp
+[9.666s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/yolo_status__type_support.cpp
+[9.666s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/detection2_d_array__rosidl_typesupport_introspection_cpp.hpp
+[9.667s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/frame_info__rosidl_typesupport_introspection_cpp.hpp
+[9.667s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/tracked_detection2_d__rosidl_typesupport_introspection_cpp.hpp
+[9.667s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/motor_command__type_support.cpp
+[9.667s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/video_rx_status__rosidl_typesupport_introspection_cpp.hpp
+[9.667s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/frame_size__rosidl_typesupport_introspection_cpp.hpp
+[9.667s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/detection2_d_array__type_support.cpp
+[9.667s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/tracked_detection2_d_array__rosidl_typesupport_introspection_cpp.hpp
+[9.667s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/motor_status__type_support.cpp
+[9.667s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/tracked_detection2_d__type_support.cpp
+[9.667s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/yolo_status__rosidl_typesupport_introspection_cpp.hpp
+[9.668s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/lib/libsentinel_interfaces__rosidl_typesupport_introspection_cpp.so
+[9.668s] -- Set non-toolchain portion of runtime path of "/root/ros2_ws/install/sentinel_interfaces/lib/libsentinel_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[9.668s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/lib/libsentinel_interfaces__rosidl_typesupport_cpp.so
+[9.668s] -- Set non-toolchain portion of runtime path of "/root/ros2_ws/install/sentinel_interfaces/lib/libsentinel_interfaces__rosidl_typesupport_cpp.so" to ""
+[9.669s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/share/sentinel_interfaces/environment/pythonpath.sh
+[9.669s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/share/sentinel_interfaces/environment/pythonpath.dsv
+[9.669s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/lib/python3.12/site-packages/sentinel_interfaces-0.0.0-py3.12.egg-info
+[9.669s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/lib/python3.12/site-packages/sentinel_interfaces-0.0.0-py3.12.egg-info/PKG-INFO
+[9.669s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/lib/python3.12/site-packages/sentinel_interfaces-0.0.0-py3.12.egg-info/top_level.txt
+[9.669s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/lib/python3.12/site-packages/sentinel_interfaces-0.0.0-py3.12.egg-info/SOURCES.txt
+[9.669s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/lib/python3.12/site-packages/sentinel_interfaces-0.0.0-py3.12.egg-info/dependency_links.txt
+[9.669s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/lib/python3.12/site-packages/sentinel_interfaces
+[9.669s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/lib/python3.12/site-packages/sentinel_interfaces/_sentinel_interfaces_s.ep.rosidl_typesupport_c.c
+[9.669s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/lib/python3.12/site-packages/sentinel_interfaces/sentinel_interfaces_s__rosidl_typesupport_c.so
+[9.670s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/lib/python3.12/site-packages/sentinel_interfaces/sentinel_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[9.670s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/lib/python3.12/site-packages/sentinel_interfaces/_sentinel_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[9.670s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/lib/python3.12/site-packages/sentinel_interfaces/_sentinel_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[9.670s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/lib/python3.12/site-packages/sentinel_interfaces/srv
+[9.670s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/lib/python3.12/site-packages/sentinel_interfaces/srv/_set_threshold.py
+[9.670s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/lib/python3.12/site-packages/sentinel_interfaces/srv/_set_bool_flag_s.c
+[9.670s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/lib/python3.12/site-packages/sentinel_interfaces/srv/_set_bool_flag.py
+[9.670s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/lib/python3.12/site-packages/sentinel_interfaces/srv/_set_threshold_s.c
+[9.671s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/lib/python3.12/site-packages/sentinel_interfaces/srv/__init__.py
+[9.671s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/lib/python3.12/site-packages/sentinel_interfaces/msg
+[9.671s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/lib/python3.12/site-packages/sentinel_interfaces/msg/_tracked_detection2_d.py
+[9.671s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/lib/python3.12/site-packages/sentinel_interfaces/msg/_tracked_detection2_d_array.py
+[9.671s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/lib/python3.12/site-packages/sentinel_interfaces/msg/_detection2_d_array.py
+[9.671s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/lib/python3.12/site-packages/sentinel_interfaces/msg/_motor_status_s.c
+[9.671s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/lib/python3.12/site-packages/sentinel_interfaces/msg/_motor_command_s.c
+[9.671s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/lib/python3.12/site-packages/sentinel_interfaces/msg/_frame_size_s.c
+[9.671s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/lib/python3.12/site-packages/sentinel_interfaces/msg/_frame_size.py
+[9.671s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/lib/python3.12/site-packages/sentinel_interfaces/msg/_tracked_detection2_d_s.c
+[9.671s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/lib/python3.12/site-packages/sentinel_interfaces/msg/_yolo_status_s.c
+[9.671s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/lib/python3.12/site-packages/sentinel_interfaces/msg/_motor_angle.py
+[9.672s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/lib/python3.12/site-packages/sentinel_interfaces/msg/_detection_s.c
+[9.672s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/lib/python3.12/site-packages/sentinel_interfaces/msg/_yolo_status.py
+[9.672s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/lib/python3.12/site-packages/sentinel_interfaces/msg/_motor_angle_s.c
+[9.672s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/lib/python3.12/site-packages/sentinel_interfaces/msg/_video_rx_status.py
+[9.672s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/lib/python3.12/site-packages/sentinel_interfaces/msg/_motor_command.py
+[9.672s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/lib/python3.12/site-packages/sentinel_interfaces/msg/_detection2_d.py
+[9.672s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/lib/python3.12/site-packages/sentinel_interfaces/msg/_frame_info.py
+[9.672s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/lib/python3.12/site-packages/sentinel_interfaces/msg/_video_rx_status_s.c
+[9.672s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/lib/python3.12/site-packages/sentinel_interfaces/msg/_frame_info_s.c
+[9.672s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/lib/python3.12/site-packages/sentinel_interfaces/msg/_detection2_d_s.c
+[9.672s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/lib/python3.12/site-packages/sentinel_interfaces/msg/_detection2_d_array_s.c
+[9.673s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/lib/python3.12/site-packages/sentinel_interfaces/msg/_tracked_detection2_d_array_s.c
+[9.673s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/lib/python3.12/site-packages/sentinel_interfaces/msg/_detection.py
+[9.673s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/lib/python3.12/site-packages/sentinel_interfaces/msg/_motor_status.py
+[9.673s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/lib/python3.12/site-packages/sentinel_interfaces/msg/__init__.py
+[9.673s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/lib/python3.12/site-packages/sentinel_interfaces/sentinel_interfaces_s__rosidl_typesupport_introspection_c.so
+[9.673s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/lib/python3.12/site-packages/sentinel_interfaces/__init__.py
+[9.738s] Listing '/root/ros2_ws/install/sentinel_interfaces/lib/python3.12/site-packages/sentinel_interfaces'...
+[9.738s] Compiling '/root/ros2_ws/install/sentinel_interfaces/lib/python3.12/site-packages/sentinel_interfaces/__init__.py'...
+[9.738s] Listing '/root/ros2_ws/install/sentinel_interfaces/lib/python3.12/site-packages/sentinel_interfaces/msg'...
+[9.738s] Compiling '/root/ros2_ws/install/sentinel_interfaces/lib/python3.12/site-packages/sentinel_interfaces/msg/__init__.py'...
+[9.738s] Compiling '/root/ros2_ws/install/sentinel_interfaces/lib/python3.12/site-packages/sentinel_interfaces/msg/_detection.py'...
+[9.738s] Compiling '/root/ros2_ws/install/sentinel_interfaces/lib/python3.12/site-packages/sentinel_interfaces/msg/_detection2_d.py'...
+[9.738s] Compiling '/root/ros2_ws/install/sentinel_interfaces/lib/python3.12/site-packages/sentinel_interfaces/msg/_detection2_d_array.py'...
+[9.738s] Compiling '/root/ros2_ws/install/sentinel_interfaces/lib/python3.12/site-packages/sentinel_interfaces/msg/_frame_info.py'...
+[9.738s] Compiling '/root/ros2_ws/install/sentinel_interfaces/lib/python3.12/site-packages/sentinel_interfaces/msg/_frame_size.py'...
+[9.738s] Compiling '/root/ros2_ws/install/sentinel_interfaces/lib/python3.12/site-packages/sentinel_interfaces/msg/_motor_angle.py'...
+[9.738s] Compiling '/root/ros2_ws/install/sentinel_interfaces/lib/python3.12/site-packages/sentinel_interfaces/msg/_motor_command.py'...
+[9.738s] Compiling '/root/ros2_ws/install/sentinel_interfaces/lib/python3.12/site-packages/sentinel_interfaces/msg/_motor_status.py'...
+[9.738s] Compiling '/root/ros2_ws/install/sentinel_interfaces/lib/python3.12/site-packages/sentinel_interfaces/msg/_tracked_detection2_d.py'...
+[9.738s] Compiling '/root/ros2_ws/install/sentinel_interfaces/lib/python3.12/site-packages/sentinel_interfaces/msg/_tracked_detection2_d_array.py'...
+[9.738s] Compiling '/root/ros2_ws/install/sentinel_interfaces/lib/python3.12/site-packages/sentinel_interfaces/msg/_video_rx_status.py'...
+[9.738s] Compiling '/root/ros2_ws/install/sentinel_interfaces/lib/python3.12/site-packages/sentinel_interfaces/msg/_yolo_status.py'...
+[9.738s] Listing '/root/ros2_ws/install/sentinel_interfaces/lib/python3.12/site-packages/sentinel_interfaces/srv'...
+[9.739s] Compiling '/root/ros2_ws/install/sentinel_interfaces/lib/python3.12/site-packages/sentinel_interfaces/srv/__init__.py'...
+[9.739s] Compiling '/root/ros2_ws/install/sentinel_interfaces/lib/python3.12/site-packages/sentinel_interfaces/srv/_set_bool_flag.py'...
+[9.739s] Compiling '/root/ros2_ws/install/sentinel_interfaces/lib/python3.12/site-packages/sentinel_interfaces/srv/_set_threshold.py'...
+[9.743s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/lib/python3.12/site-packages/sentinel_interfaces/sentinel_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[9.746s] -- Set non-toolchain portion of runtime path of "/root/ros2_ws/install/sentinel_interfaces/lib/python3.12/site-packages/sentinel_interfaces/sentinel_interfaces_s__rosidl_typesupport_fastrtps_c.so" to ""
+[9.746s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/lib/python3.12/site-packages/sentinel_interfaces/sentinel_interfaces_s__rosidl_typesupport_introspection_c.so
+[9.746s] -- Set non-toolchain portion of runtime path of "/root/ros2_ws/install/sentinel_interfaces/lib/python3.12/site-packages/sentinel_interfaces/sentinel_interfaces_s__rosidl_typesupport_introspection_c.so" to ""
+[9.746s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/lib/python3.12/site-packages/sentinel_interfaces/sentinel_interfaces_s__rosidl_typesupport_c.so
+[9.746s] -- Set non-toolchain portion of runtime path of "/root/ros2_ws/install/sentinel_interfaces/lib/python3.12/site-packages/sentinel_interfaces/sentinel_interfaces_s__rosidl_typesupport_c.so" to ""
+[9.746s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/lib/libsentinel_interfaces__rosidl_generator_py.so
+[9.747s] -- Set non-toolchain portion of runtime path of "/root/ros2_ws/install/sentinel_interfaces/lib/libsentinel_interfaces__rosidl_generator_py.so" to ""
+[9.747s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/share/sentinel_interfaces/msg/MotorAngle.idl
+[9.747s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/share/sentinel_interfaces/msg/Detection.idl
+[9.747s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/share/sentinel_interfaces/msg/Detection2D.idl
+[9.747s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/share/sentinel_interfaces/msg/Detection2DArray.idl
+[9.747s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/share/sentinel_interfaces/msg/FrameInfo.idl
+[9.747s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/share/sentinel_interfaces/msg/FrameSize.idl
+[9.747s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/share/sentinel_interfaces/msg/MotorCommand.idl
+[9.747s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/share/sentinel_interfaces/msg/MotorStatus.idl
+[9.747s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/share/sentinel_interfaces/msg/TrackedDetection2D.idl
+[9.747s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/share/sentinel_interfaces/msg/TrackedDetection2DArray.idl
+[9.748s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/share/sentinel_interfaces/msg/VideoRxStatus.idl
+[9.748s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/share/sentinel_interfaces/msg/YoloStatus.idl
+[9.748s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/share/sentinel_interfaces/srv/SetBoolFlag.idl
+[9.748s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/share/sentinel_interfaces/srv/SetThreshold.idl
+[9.748s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/share/sentinel_interfaces/msg/MotorAngle.msg
+[9.748s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/share/sentinel_interfaces/msg/Detection.msg
+[9.748s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/share/sentinel_interfaces/msg/Detection2D.msg
+[9.748s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/share/sentinel_interfaces/msg/Detection2DArray.msg
+[9.748s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/share/sentinel_interfaces/msg/FrameInfo.msg
+[9.748s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/share/sentinel_interfaces/msg/FrameSize.msg
+[9.748s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/share/sentinel_interfaces/msg/MotorCommand.msg
+[9.748s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/share/sentinel_interfaces/msg/MotorStatus.msg
+[9.749s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/share/sentinel_interfaces/msg/TrackedDetection2D.msg
+[9.749s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/share/sentinel_interfaces/msg/TrackedDetection2DArray.msg
+[9.749s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/share/sentinel_interfaces/msg/VideoRxStatus.msg
+[9.749s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/share/sentinel_interfaces/msg/YoloStatus.msg
+[9.749s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/share/sentinel_interfaces/srv/SetBoolFlag.srv
+[9.749s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/share/sentinel_interfaces/srv/SetThreshold.srv
+[9.749s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/share/ament_index/resource_index/package_run_dependencies/sentinel_interfaces
+[9.750s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/share/ament_index/resource_index/parent_prefix_path/sentinel_interfaces
+[9.750s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/share/sentinel_interfaces/environment/ament_prefix_path.sh
+[9.750s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/share/sentinel_interfaces/environment/ament_prefix_path.dsv
+[9.751s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/share/sentinel_interfaces/environment/path.sh
+[9.751s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/share/sentinel_interfaces/environment/path.dsv
+[9.751s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/share/sentinel_interfaces/local_setup.bash
+[9.751s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/share/sentinel_interfaces/local_setup.sh
+[9.751s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/share/sentinel_interfaces/local_setup.zsh
+[9.751s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/share/sentinel_interfaces/local_setup.dsv
+[9.751s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/share/sentinel_interfaces/package.dsv
+[9.752s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/share/ament_index/resource_index/packages/sentinel_interfaces
+[9.752s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/share/sentinel_interfaces/cmake/export_sentinel_interfaces__rosidl_generator_cExport.cmake
+[9.752s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/share/sentinel_interfaces/cmake/export_sentinel_interfaces__rosidl_generator_cExport-noconfig.cmake
+[9.752s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/share/sentinel_interfaces/cmake/export_sentinel_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[9.752s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/share/sentinel_interfaces/cmake/export_sentinel_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[9.752s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/share/sentinel_interfaces/cmake/sentinel_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[9.752s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/share/sentinel_interfaces/cmake/sentinel_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[9.752s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/share/sentinel_interfaces/cmake/sentinel_interfaces__rosidl_typesupport_cExport.cmake
+[9.752s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/share/sentinel_interfaces/cmake/sentinel_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[9.752s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/share/sentinel_interfaces/cmake/export_sentinel_interfaces__rosidl_generator_cppExport.cmake
+[9.753s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/share/sentinel_interfaces/cmake/export_sentinel_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[9.753s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/share/sentinel_interfaces/cmake/export_sentinel_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[9.753s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/share/sentinel_interfaces/cmake/sentinel_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[9.753s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/share/sentinel_interfaces/cmake/sentinel_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[9.754s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/share/sentinel_interfaces/cmake/sentinel_interfaces__rosidl_typesupport_cppExport.cmake
+[9.754s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/share/sentinel_interfaces/cmake/sentinel_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[9.754s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/share/sentinel_interfaces/cmake/export_sentinel_interfaces__rosidl_generator_pyExport.cmake
+[9.754s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/share/sentinel_interfaces/cmake/export_sentinel_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[9.754s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/share/sentinel_interfaces/cmake/rosidl_cmake-extras.cmake
+[9.754s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/share/sentinel_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[9.754s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/share/sentinel_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[9.754s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/share/sentinel_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[9.754s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/share/sentinel_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[9.755s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/share/sentinel_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[9.755s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/share/sentinel_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[9.755s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/share/sentinel_interfaces/cmake/sentinel_interfacesConfig.cmake
+[9.755s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/share/sentinel_interfaces/cmake/sentinel_interfacesConfig-version.cmake
+[9.755s] -- Installing: /root/ros2_ws/install/sentinel_interfaces/share/sentinel_interfaces/package.xml
+[9.758s] Invoked command in '/root/ros2_ws/build/sentinel_interfaces' returned '0': /usr/bin/cmake --install /root/ros2_ws/build/sentinel_interfaces

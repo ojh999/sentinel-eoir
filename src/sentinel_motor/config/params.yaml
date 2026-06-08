@@ -1,0 +1,33 @@
+pan_tilt_control_node:
+  ros__parameters:
+    target_ip: "192.168.0.88"
+    target_port: 6000
+    command_resend_ms: 50
+    home_pan: 2047
+    home_tilt: 2047
+    pan_min: 511
+    pan_max: 3583
+    tilt_min: 1600
+    tilt_max: 2450
+
+motor_feedback_node:
+  ros__parameters:
+    listen_port: 6001
+    feedback_poll_ms: 50
+##pan kp 0.27 kd 0.01 ki 0.001  kp 0.6  kd 0.01 ki 0.001
+tracking_control_node:
+  ros__parameters:
+    kp_pan: 0.27
+    kp_tilt: 0.5
+    ki_pan: 0.001
+    ki_tilt: 0.001
+    kd_pan: 0.01
+    kd_tilt: 0.01
+    deadband_px: 20
+    windup_limit: 500.0
+    pan_min: 511
+    pan_max: 3583
+    tilt_min: 1706
+    tilt_max: 2388
+    cam_cx: 640.0
+    cam_cy: 360.0

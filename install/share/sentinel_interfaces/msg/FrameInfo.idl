@@ -1,0 +1,25 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from sentinel_interfaces/msg/FrameInfo.msg
+// generated code does not contain a copyright notice
+
+#include "builtin_interfaces/msg/Time.idl"
+
+module sentinel_interfaces {
+  module msg {
+    @verbatim (language="comment", text=
+      "FreameInfo.msg")
+    struct FrameInfo {
+      builtin_interfaces::msg::Time stamp;
+
+      uint32 frame_id;
+
+      uint32 width;
+
+      uint32 height;
+
+      float fps;
+
+      string source;
+    };
+  };
+};

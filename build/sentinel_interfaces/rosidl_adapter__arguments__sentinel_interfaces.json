@@ -1,0 +1,19 @@
+{
+  "package_name": "sentinel_interfaces",
+  "non_idl_tuples": [
+    "/root/ros2_ws/src/sentinel_interfaces:msg/MotorAngle.msg",
+    "/root/ros2_ws/src/sentinel_interfaces:msg/Detection.msg",
+    "/root/ros2_ws/src/sentinel_interfaces:msg/Detection2D.msg",
+    "/root/ros2_ws/src/sentinel_interfaces:msg/Detection2DArray.msg",
+    "/root/ros2_ws/src/sentinel_interfaces:msg/FrameInfo.msg",
+    "/root/ros2_ws/src/sentinel_interfaces:msg/FrameSize.msg",
+    "/root/ros2_ws/src/sentinel_interfaces:msg/MotorCommand.msg",
+    "/root/ros2_ws/src/sentinel_interfaces:msg/MotorStatus.msg",
+    "/root/ros2_ws/src/sentinel_interfaces:msg/TrackedDetection2D.msg",
+    "/root/ros2_ws/src/sentinel_interfaces:msg/TrackedDetection2DArray.msg",
+    "/root/ros2_ws/src/sentinel_interfaces:msg/VideoRxStatus.msg",
+    "/root/ros2_ws/src/sentinel_interfaces:msg/YoloStatus.msg",
+    "/root/ros2_ws/src/sentinel_interfaces:srv/SetBoolFlag.srv",
+    "/root/ros2_ws/src/sentinel_interfaces:srv/SetThreshold.srv"
+  ]
+}

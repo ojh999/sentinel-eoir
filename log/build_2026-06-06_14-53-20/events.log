@@ -1,0 +1,798 @@
+[0.000000] (-) TimerEvent: {}
+[0.000133] (sentinel_interfaces) JobQueued: {'identifier': 'sentinel_interfaces', 'dependencies': OrderedDict()}
+[0.000619] (sentinel_interfaces) JobStarted: {'identifier': 'sentinel_interfaces'}
+[0.007122] (sentinel_interfaces) JobProgress: {'identifier': 'sentinel_interfaces', 'progress': 'cmake'}
+[0.007572] (sentinel_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/root/ros2_ws/src/sentinel_interfaces', '-DCATKIN_INSTALL_INTO_PREFIX_ROOT=0', '-DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/sentinel_interfaces'], 'cwd': '/root/ros2_ws/build/sentinel_interfaces', 'env': OrderedDict({'LANGUAGE': 'en_US:en', 'SHLVL': '0', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/lib', 'HOME': '/root', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'LANG': 'en_US.UTF-8', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'DEBIAN_FRONTEND': 'noninteractive', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/root/ros2_ws/build/sentinel_interfaces', 'LC_ALL': 'en_US.UTF-8', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'TZ': 'Asia/Seoul', 'COLCON': '1'}), 'shell': False}
+[0.100888] (-) TimerEvent: {}
+[0.113765] (sentinel_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.197794] (sentinel_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.200951] (-) TimerEvent: {}
+[0.225337] (sentinel_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.301857] (-) TimerEvent: {}
+[0.318789] (sentinel_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.325664] (sentinel_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.326750] (sentinel_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.327353] (sentinel_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.336670] (sentinel_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.402910] (-) TimerEvent: {}
+[0.437227] (sentinel_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.448188] (sentinel_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.449876] (sentinel_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.450050] (sentinel_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.453684] (sentinel_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.503006] (-) TimerEvent: {}
+[0.582733] (sentinel_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[0.603107] (-) TimerEvent: {}
+[0.686184] (sentinel_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[0.691889] (sentinel_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.703211] (-) TimerEvent: {}
+[0.743196] (sentinel_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.781039] (sentinel_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.7 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[0.784804] (sentinel_interfaces) StdoutLine: {'line': b'-- Found builtin_interfaces: 2.0.3 (/opt/ros/jazzy/share/builtin_interfaces/cmake)\n'}
+[0.799538] (sentinel_interfaces) StdoutLine: {'line': b'-- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)\n'}
+[0.803423] (-) TimerEvent: {}
+[0.903610] (-) TimerEvent: {}
+[1.003762] (-) TimerEvent: {}
+[1.103896] (-) TimerEvent: {}
+[1.204127] (-) TimerEvent: {}
+[1.304277] (-) TimerEvent: {}
+[1.404556] (-) TimerEvent: {}
+[1.504809] (-) TimerEvent: {}
+[1.507616] (sentinel_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)\n'}
+[1.604910] (-) TimerEvent: {}
+[1.705038] (-) TimerEvent: {}
+[1.805220] (-) TimerEvent: {}
+[1.906403] (-) TimerEvent: {}
+[1.948760] (sentinel_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.006482] (-) TimerEvent: {}
+[2.106638] (-) TimerEvent: {}
+[2.206782] (-) TimerEvent: {}
+[2.306886] (-) TimerEvent: {}
+[2.407627] (-) TimerEvent: {}
+[2.488911] (sentinel_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.491822] (sentinel_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)\n'}
+[2.507691] (-) TimerEvent: {}
+[2.607809] (-) TimerEvent: {}
+[2.620804] (sentinel_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: /usr/bin/python3  \n'}
+[2.707906] (-) TimerEvent: {}
+[2.808066] (-) TimerEvent: {}
+[2.908226] (-) TimerEvent: {}
+[3.008383] (-) TimerEvent: {}
+[3.102487] (sentinel_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[3.108441] (-) TimerEvent: {}
+[3.157390] (sentinel_interfaces) StdoutLine: {'line': b'-- Configuring done (3.1s)\n'}
+[3.214447] (-) TimerEvent: {}
+[3.222139] (sentinel_interfaces) StdoutLine: {'line': b'-- Generating done (0.1s)\n'}
+[3.224558] (sentinel_interfaces) StderrLine: {'line': b'CMake Warning:\n'}
+[3.224744] (sentinel_interfaces) StderrLine: {'line': b'  Manually-specified variables were not used by the project:\n'}
+[3.224802] (sentinel_interfaces) StderrLine: {'line': b'\n'}
+[3.224842] (sentinel_interfaces) StderrLine: {'line': b'    CATKIN_INSTALL_INTO_PREFIX_ROOT\n'}
+[3.224879] (sentinel_interfaces) StderrLine: {'line': b'\n'}
+[3.224914] (sentinel_interfaces) StderrLine: {'line': b'\n'}
+[3.234662] (sentinel_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /root/ros2_ws/build/sentinel_interfaces\n'}
+[3.251255] (sentinel_interfaces) CommandEnded: {'returncode': 0}
+[3.251653] (sentinel_interfaces) JobProgress: {'identifier': 'sentinel_interfaces', 'progress': 'build'}
+[3.251678] (sentinel_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/ros2_ws/build/sentinel_interfaces', '--', '-j14', '-l14'], 'cwd': '/root/ros2_ws/build/sentinel_interfaces', 'env': OrderedDict({'LANGUAGE': 'en_US:en', 'SHLVL': '0', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/lib', 'HOME': '/root', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'LANG': 'en_US.UTF-8', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'DEBIAN_FRONTEND': 'noninteractive', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/root/ros2_ws/build/sentinel_interfaces', 'LC_ALL': 'en_US.UTF-8', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'TZ': 'Asia/Seoul', 'COLCON': '1'}), 'shell': False}
+[3.319025] (sentinel_interfaces) StdoutLine: {'line': b'[  0%] Generating type hashes for ROS interfaces\n'}
+[3.319252] (-) TimerEvent: {}
+[3.322248] (sentinel_interfaces) StdoutLine: {'line': b'[  0%] Built target ament_cmake_python_copy_sentinel_interfaces\n'}
+[3.419360] (-) TimerEvent: {}
+[3.474662] (sentinel_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[3.474968] (sentinel_interfaces) StdoutLine: {'line': b'creating sentinel_interfaces.egg-info\n'}
+[3.483748] (sentinel_interfaces) StdoutLine: {'line': b'writing sentinel_interfaces.egg-info/PKG-INFO\n'}
+[3.483947] (sentinel_interfaces) StdoutLine: {'line': b'writing dependency_links to sentinel_interfaces.egg-info/dependency_links.txt\n'}
+[3.484065] (sentinel_interfaces) StdoutLine: {'line': b'writing top-level names to sentinel_interfaces.egg-info/top_level.txt\n'}
+[3.484165] (sentinel_interfaces) StdoutLine: {'line': b"writing manifest file 'sentinel_interfaces.egg-info/SOURCES.txt'\n"}
+[3.508470] (sentinel_interfaces) StdoutLine: {'line': b"reading manifest file 'sentinel_interfaces.egg-info/SOURCES.txt'\n"}
+[3.508775] (sentinel_interfaces) StdoutLine: {'line': b"writing manifest file 'sentinel_interfaces.egg-info/SOURCES.txt'\n"}
+[3.519422] (-) TimerEvent: {}
+[3.536373] (sentinel_interfaces) StdoutLine: {'line': b'[  0%] Built target ament_cmake_python_build_sentinel_interfaces_egg\n'}
+[3.619533] (-) TimerEvent: {}
+[3.719739] (-) TimerEvent: {}
+[3.723905] (sentinel_interfaces) StdoutLine: {'line': b'[  0%] Built target sentinel_interfaces__rosidl_generator_type_description\n'}
+[3.734903] (sentinel_interfaces) StdoutLine: {'line': b'[  0%] Generating C code for ROS interfaces\n'}
+[3.744463] (sentinel_interfaces) StdoutLine: {'line': b'[  0%] Generating C++ code for ROS interfaces\n'}
+[3.819838] (-) TimerEvent: {}
+[3.922011] (-) TimerEvent: {}
+[4.023192] (-) TimerEvent: {}
+[4.123396] (-) TimerEvent: {}
+[4.223587] (-) TimerEvent: {}
+[4.323762] (-) TimerEvent: {}
+[4.424941] (-) TimerEvent: {}
+[4.525179] (-) TimerEvent: {}
+[4.535534] (sentinel_interfaces) StdoutLine: {'line': b'[  0%] Built target sentinel_interfaces__cpp\n'}
+[4.625293] (-) TimerEvent: {}
+[4.689531] (sentinel_interfaces) StdoutLine: {'line': b'[  1%] Building C object CMakeFiles/sentinel_interfaces__rosidl_generator_c.dir/rosidl_generator_c/sentinel_interfaces/msg/detail/motor_angle__description.c.o\n'}
+[4.689779] (sentinel_interfaces) StdoutLine: {'line': b'[  1%] Building C object CMakeFiles/sentinel_interfaces__rosidl_generator_c.dir/rosidl_generator_c/sentinel_interfaces/msg/detail/detection__functions.c.o\n'}
+[4.689850] (sentinel_interfaces) StdoutLine: {'line': b'[  2%] Building C object CMakeFiles/sentinel_interfaces__rosidl_generator_c.dir/rosidl_generator_c/sentinel_interfaces/msg/detail/detection__description.c.o\n'}
+[4.689903] (sentinel_interfaces) StdoutLine: {'line': b'[  4%] Building C object CMakeFiles/sentinel_interfaces__rosidl_generator_c.dir/rosidl_generator_c/sentinel_interfaces/msg/detail/detection2_d__type_support.c.o\n'}
+[4.689953] (sentinel_interfaces) StdoutLine: {'line': b'[  4%] Building C object CMakeFiles/sentinel_interfaces__rosidl_generator_c.dir/rosidl_generator_c/sentinel_interfaces/msg/detail/detection2_d__description.c.o\n'}
+[4.690001] (sentinel_interfaces) StdoutLine: {'line': b'[  5%] Building C object CMakeFiles/sentinel_interfaces__rosidl_generator_c.dir/rosidl_generator_c/sentinel_interfaces/msg/detail/motor_angle__functions.c.o\n'}
+[4.690049] (sentinel_interfaces) StdoutLine: {'line': b'[  6%] Building C object CMakeFiles/sentinel_interfaces__rosidl_generator_c.dir/rosidl_generator_c/sentinel_interfaces/msg/detail/detection__type_support.c.o\n'}
+[4.690096] (sentinel_interfaces) StdoutLine: {'line': b'[  6%] Building C object CMakeFiles/sentinel_interfaces__rosidl_generator_c.dir/rosidl_generator_c/sentinel_interfaces/msg/detail/detection2_d__functions.c.o\n'}
+[4.690214] (sentinel_interfaces) StdoutLine: {'line': b'[  6%] Building C object CMakeFiles/sentinel_interfaces__rosidl_generator_c.dir/rosidl_generator_c/sentinel_interfaces/msg/detail/frame_info__description.c.o\n'}
+[4.690264] (sentinel_interfaces) StdoutLine: {'line': b'[  7%] Building C object CMakeFiles/sentinel_interfaces__rosidl_generator_c.dir/rosidl_generator_c/sentinel_interfaces/msg/detail/frame_info__functions.c.o\n'}
+[4.690311] (sentinel_interfaces) StdoutLine: {'line': b'[  8%] Building C object CMakeFiles/sentinel_interfaces__rosidl_generator_c.dir/rosidl_generator_c/sentinel_interfaces/msg/detail/detection2_d_array__type_support.c.o\n'}
+[4.690359] (sentinel_interfaces) StdoutLine: {'line': b'[  8%] Building C object CMakeFiles/sentinel_interfaces__rosidl_generator_c.dir/rosidl_generator_c/sentinel_interfaces/msg/detail/detection2_d_array__description.c.o\n'}
+[4.690424] (sentinel_interfaces) StdoutLine: {'line': b'[  8%] Building C object CMakeFiles/sentinel_interfaces__rosidl_generator_c.dir/rosidl_generator_c/sentinel_interfaces/msg/detail/motor_angle__type_support.c.o\n'}
+[4.694203] (sentinel_interfaces) StdoutLine: {'line': b'[  9%] Building C object CMakeFiles/sentinel_interfaces__rosidl_generator_c.dir/rosidl_generator_c/sentinel_interfaces/msg/detail/detection2_d_array__functions.c.o\n'}
+[4.725405] (-) TimerEvent: {}
+[4.753491] (sentinel_interfaces) StdoutLine: {'line': b'[  9%] Building C object CMakeFiles/sentinel_interfaces__rosidl_generator_c.dir/rosidl_generator_c/sentinel_interfaces/msg/detail/frame_info__type_support.c.o\n'}
+[4.753745] (sentinel_interfaces) StdoutLine: {'line': b'[  9%] Building C object CMakeFiles/sentinel_interfaces__rosidl_generator_c.dir/rosidl_generator_c/sentinel_interfaces/msg/detail/frame_size__type_support.c.o\n'}
+[4.753810] (sentinel_interfaces) StdoutLine: {'line': b'[ 10%] Building C object CMakeFiles/sentinel_interfaces__rosidl_generator_c.dir/rosidl_generator_c/sentinel_interfaces/msg/detail/frame_size__description.c.o\n'}
+[4.753863] (sentinel_interfaces) StdoutLine: {'line': b'[ 11%] Building C object CMakeFiles/sentinel_interfaces__rosidl_generator_c.dir/rosidl_generator_c/sentinel_interfaces/msg/detail/motor_command__functions.c.o\n'}
+[4.753912] (sentinel_interfaces) StdoutLine: {'line': b'[ 12%] Building C object CMakeFiles/sentinel_interfaces__rosidl_generator_c.dir/rosidl_generator_c/sentinel_interfaces/msg/detail/frame_size__functions.c.o\n'}
+[4.753960] (sentinel_interfaces) StdoutLine: {'line': b'[ 13%] Building C object CMakeFiles/sentinel_interfaces__rosidl_generator_c.dir/rosidl_generator_c/sentinel_interfaces/msg/detail/motor_command__description.c.o\n'}
+[4.754016] (sentinel_interfaces) StdoutLine: {'line': b'[ 13%] Building C object CMakeFiles/sentinel_interfaces__rosidl_generator_c.dir/rosidl_generator_c/sentinel_interfaces/msg/detail/motor_command__type_support.c.o\n'}
+[4.754063] (sentinel_interfaces) StdoutLine: {'line': b'[ 14%] Building C object CMakeFiles/sentinel_interfaces__rosidl_generator_c.dir/rosidl_generator_c/sentinel_interfaces/msg/detail/motor_status__description.c.o\n'}
+[4.758207] (sentinel_interfaces) StdoutLine: {'line': b'[ 14%] Building C object CMakeFiles/sentinel_interfaces__rosidl_generator_c.dir/rosidl_generator_c/sentinel_interfaces/msg/detail/motor_status__functions.c.o\n'}
+[4.758420] (sentinel_interfaces) StdoutLine: {'line': b'[ 15%] Building C object CMakeFiles/sentinel_interfaces__rosidl_generator_c.dir/rosidl_generator_c/sentinel_interfaces/msg/detail/motor_status__type_support.c.o\n'}
+[4.761880] (sentinel_interfaces) StdoutLine: {'line': b'[ 15%] Building C object CMakeFiles/sentinel_interfaces__rosidl_generator_c.dir/rosidl_generator_c/sentinel_interfaces/msg/detail/tracked_detection2_d__functions.c.o\n'}
+[4.765406] (sentinel_interfaces) StdoutLine: {'line': b'[ 17%] Building C object CMakeFiles/sentinel_interfaces__rosidl_generator_c.dir/rosidl_generator_c/sentinel_interfaces/msg/detail/tracked_detection2_d__type_support.c.o\n'}
+[4.765560] (sentinel_interfaces) StdoutLine: {'line': b'[ 16%] Building C object CMakeFiles/sentinel_interfaces__rosidl_generator_c.dir/rosidl_generator_c/sentinel_interfaces/msg/detail/tracked_detection2_d__description.c.o\n'}
+[4.765717] (sentinel_interfaces) StdoutLine: {'line': b'[ 17%] Building C object CMakeFiles/sentinel_interfaces__rosidl_generator_c.dir/rosidl_generator_c/sentinel_interfaces/msg/detail/tracked_detection2_d_array__description.c.o\n'}
+[4.802199] (sentinel_interfaces) StdoutLine: {'line': b'[ 18%] Building C object CMakeFiles/sentinel_interfaces__rosidl_generator_c.dir/rosidl_generator_c/sentinel_interfaces/msg/detail/tracked_detection2_d_array__functions.c.o\n'}
+[4.808737] (sentinel_interfaces) StdoutLine: {'line': b'[ 19%] Building C object CMakeFiles/sentinel_interfaces__rosidl_generator_c.dir/rosidl_generator_c/sentinel_interfaces/msg/detail/tracked_detection2_d_array__type_support.c.o\n'}
+[4.809021] (sentinel_interfaces) StdoutLine: {'line': b'[ 20%] Building C object CMakeFiles/sentinel_interfaces__rosidl_generator_c.dir/rosidl_generator_c/sentinel_interfaces/msg/detail/video_rx_status__functions.c.o\n'}
+[4.809087] (sentinel_interfaces) StdoutLine: {'line': b'[ 20%] Building C object CMakeFiles/sentinel_interfaces__rosidl_generator_c.dir/rosidl_generator_c/sentinel_interfaces/msg/detail/video_rx_status__type_support.c.o\n'}
+[4.818762] (sentinel_interfaces) StdoutLine: {'line': b'[ 20%] Building C object CMakeFiles/sentinel_interfaces__rosidl_generator_c.dir/rosidl_generator_c/sentinel_interfaces/msg/detail/video_rx_status__description.c.o\n'}
+[4.819119] (sentinel_interfaces) StdoutLine: {'line': b'[ 21%] Building C object CMakeFiles/sentinel_interfaces__rosidl_generator_c.dir/rosidl_generator_c/sentinel_interfaces/msg/detail/yolo_status__description.c.o\n'}
+[4.824543] (sentinel_interfaces) StdoutLine: {'line': b'[ 21%] Building C object CMakeFiles/sentinel_interfaces__rosidl_generator_c.dir/rosidl_generator_c/sentinel_interfaces/msg/detail/yolo_status__type_support.c.o\n'}
+[4.825472] (-) TimerEvent: {}
+[4.834598] (sentinel_interfaces) StdoutLine: {'line': b'[ 22%] Building C object CMakeFiles/sentinel_interfaces__rosidl_generator_c.dir/rosidl_generator_c/sentinel_interfaces/msg/detail/yolo_status__functions.c.o\n'}
+[4.834805] (sentinel_interfaces) StdoutLine: {'line': b'[ 23%] Building C object CMakeFiles/sentinel_interfaces__rosidl_generator_c.dir/rosidl_generator_c/sentinel_interfaces/srv/detail/set_bool_flag__description.c.o\n'}
+[4.837953] (sentinel_interfaces) StdoutLine: {'line': b'[ 24%] Building C object CMakeFiles/sentinel_interfaces__rosidl_generator_c.dir/rosidl_generator_c/sentinel_interfaces/srv/detail/set_bool_flag__functions.c.o\n'}
+[4.848640] (sentinel_interfaces) StdoutLine: {'line': b'[ 25%] Building C object CMakeFiles/sentinel_interfaces__rosidl_generator_c.dir/rosidl_generator_c/sentinel_interfaces/srv/detail/set_threshold__type_support.c.o\n'}
+[4.848837] (sentinel_interfaces) StdoutLine: {'line': b'[ 24%] Building C object CMakeFiles/sentinel_interfaces__rosidl_generator_c.dir/rosidl_generator_c/sentinel_interfaces/srv/detail/set_bool_flag__type_support.c.o\n'}
+[4.848884] (sentinel_interfaces) StdoutLine: {'line': b'[ 25%] Building C object CMakeFiles/sentinel_interfaces__rosidl_generator_c.dir/rosidl_generator_c/sentinel_interfaces/srv/detail/set_threshold__functions.c.o\n'}
+[4.852802] (sentinel_interfaces) StdoutLine: {'line': b'[ 26%] Building C object CMakeFiles/sentinel_interfaces__rosidl_generator_c.dir/rosidl_generator_c/sentinel_interfaces/srv/detail/set_threshold__description.c.o\n'}
+[4.925609] (-) TimerEvent: {}
+[4.937810] (sentinel_interfaces) StdoutLine: {'line': b'[ 27%] Linking C shared library libsentinel_interfaces__rosidl_generator_c.so\n'}
+[4.975798] (sentinel_interfaces) StdoutLine: {'line': b'[ 27%] Built target sentinel_interfaces__rosidl_generator_c\n'}
+[4.987696] (sentinel_interfaces) StdoutLine: {'line': b'[ 28%] Generating C type support dispatch for ROS interfaces\n'}
+[4.987900] (sentinel_interfaces) StdoutLine: {'line': b'[ 29%] Generating C introspection for ROS interfaces\n'}
+[4.988633] (sentinel_interfaces) StdoutLine: {'line': b'[ 29%] Generating C type support for eProsima Fast-RTPS\n'}
+[4.988691] (sentinel_interfaces) StdoutLine: {'line': b'[ 30%] Generating C++ introspection for ROS interfaces\n'}
+[4.988736] (sentinel_interfaces) StdoutLine: {'line': b'[ 30%] Generating C++ type support for eProsima Fast-RTPS\n'}
+[4.988892] (sentinel_interfaces) StdoutLine: {'line': b'[ 31%] Generating C++ type support dispatch for ROS interfaces\n'}
+[5.025714] (-) TimerEvent: {}
+[5.125916] (-) TimerEvent: {}
+[5.226186] (-) TimerEvent: {}
+[5.326413] (-) TimerEvent: {}
+[5.426668] (-) TimerEvent: {}
+[5.443238] (sentinel_interfaces) StdoutLine: {'line': b'[ 33%] Building CXX object CMakeFiles/sentinel_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/sentinel_interfaces/msg/frame_size__type_support.cpp.o\n'}
+[5.447858] (sentinel_interfaces) StdoutLine: {'line': b'[ 31%] Building CXX object CMakeFiles/sentinel_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/sentinel_interfaces/msg/detection2_d_array__type_support.cpp.o\n'}
+[5.448115] (sentinel_interfaces) StdoutLine: {'line': b'[ 33%] Building CXX object CMakeFiles/sentinel_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/sentinel_interfaces/msg/detection__type_support.cpp.o\n'}
+[5.448230] (sentinel_interfaces) StdoutLine: {'line': b'[ 34%] Building CXX object CMakeFiles/sentinel_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/sentinel_interfaces/msg/frame_info__type_support.cpp.o\n'}
+[5.448300] (sentinel_interfaces) StdoutLine: {'line': b'[ 34%] Building CXX object CMakeFiles/sentinel_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/sentinel_interfaces/msg/detection2_d__type_support.cpp.o\n'}
+[5.448359] (sentinel_interfaces) StdoutLine: {'line': b'[ 35%] Building CXX object CMakeFiles/sentinel_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/sentinel_interfaces/msg/motor_angle__type_support.cpp.o\n'}
+[5.448417] (sentinel_interfaces) StdoutLine: {'line': b'[ 35%] Building CXX object CMakeFiles/sentinel_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/sentinel_interfaces/msg/motor_command__type_support.cpp.o\n'}
+[5.450020] (sentinel_interfaces) StdoutLine: {'line': b'[ 36%] Building CXX object CMakeFiles/sentinel_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/sentinel_interfaces/msg/motor_status__type_support.cpp.o\n'}
+[5.450196] (sentinel_interfaces) StdoutLine: {'line': b'[ 36%] Building CXX object CMakeFiles/sentinel_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/sentinel_interfaces/msg/tracked_detection2_d__type_support.cpp.o\n'}
+[5.509698] (sentinel_interfaces) StdoutLine: {'line': b'[ 38%] Building CXX object CMakeFiles/sentinel_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/sentinel_interfaces/msg/video_rx_status__type_support.cpp.o\n'}
+[5.509928] (sentinel_interfaces) StdoutLine: {'line': b'[ 36%] Building CXX object CMakeFiles/sentinel_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/sentinel_interfaces/msg/yolo_status__type_support.cpp.o\n'}
+[5.510006] (sentinel_interfaces) StdoutLine: {'line': b'[ 38%] Building CXX object CMakeFiles/sentinel_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/sentinel_interfaces/msg/tracked_detection2_d_array__type_support.cpp.o\n'}
+[5.510063] (sentinel_interfaces) StdoutLine: {'line': b'[ 39%] Building CXX object CMakeFiles/sentinel_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/sentinel_interfaces/srv/set_bool_flag__type_support.cpp.o\n'}
+[5.511323] (sentinel_interfaces) StdoutLine: {'line': b'[ 39%] Building CXX object CMakeFiles/sentinel_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/sentinel_interfaces/srv/set_threshold__type_support.cpp.o\n'}
+[5.529780] (-) TimerEvent: {}
+[5.565047] (sentinel_interfaces) StdoutLine: {'line': b'[ 39%] Building CXX object CMakeFiles/sentinel_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sentinel_interfaces/msg/motor_angle__type_support.cpp.o\n'}
+[5.593845] (sentinel_interfaces) StdoutLine: {'line': b'[ 40%] Building CXX object CMakeFiles/sentinel_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sentinel_interfaces/msg/detection__type_support.cpp.o\n'}
+[5.603974] (sentinel_interfaces) StdoutLine: {'line': b'[ 41%] Building CXX object CMakeFiles/sentinel_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sentinel_interfaces/msg/detection2_d__type_support.cpp.o\n'}
+[5.607121] (sentinel_interfaces) StdoutLine: {'line': b'[ 41%] Building CXX object CMakeFiles/sentinel_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sentinel_interfaces/msg/detection2_d_array__type_support.cpp.o\n'}
+[5.607290] (sentinel_interfaces) StdoutLine: {'line': b'[ 42%] Building CXX object CMakeFiles/sentinel_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sentinel_interfaces/msg/frame_info__type_support.cpp.o\n'}
+[5.608269] (sentinel_interfaces) StdoutLine: {'line': b'[ 43%] Linking CXX shared library libsentinel_interfaces__rosidl_typesupport_c.so\n'}
+[5.630428] (sentinel_interfaces) StdoutLine: {'line': b'[ 43%] Building CXX object CMakeFiles/sentinel_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sentinel_interfaces/msg/frame_size__type_support.cpp.o\n'}
+[5.630666] (-) TimerEvent: {}
+[5.675965] (sentinel_interfaces) StdoutLine: {'line': b'[ 44%] Building CXX object CMakeFiles/sentinel_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sentinel_interfaces/msg/motor_command__type_support.cpp.o\n'}
+[5.682047] (sentinel_interfaces) StdoutLine: {'line': b'[ 45%] Building CXX object CMakeFiles/sentinel_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sentinel_interfaces/msg/motor_status__type_support.cpp.o\n'}
+[5.682238] (sentinel_interfaces) StdoutLine: {'line': b'[ 45%] Building CXX object CMakeFiles/sentinel_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sentinel_interfaces/msg/tracked_detection2_d__type_support.cpp.o\n'}
+[5.721776] (sentinel_interfaces) StdoutLine: {'line': b'[ 45%] Building CXX object CMakeFiles/sentinel_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sentinel_interfaces/msg/detail/motor_angle__type_support.cpp.o\n'}
+[5.736088] (-) TimerEvent: {}
+[5.741782] (sentinel_interfaces) StdoutLine: {'line': b'[ 45%] Built target sentinel_interfaces__rosidl_typesupport_c\n'}
+[5.796730] (sentinel_interfaces) StdoutLine: {'line': b'[ 46%] Building CXX object CMakeFiles/sentinel_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sentinel_interfaces/msg/tracked_detection2_d_array__type_support.cpp.o\n'}
+[5.805278] (sentinel_interfaces) StdoutLine: {'line': b'[ 47%] Building C object CMakeFiles/sentinel_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sentinel_interfaces/msg/detail/motor_angle__type_support.c.o\n'}
+[5.836228] (-) TimerEvent: {}
+[5.861129] (sentinel_interfaces) StdoutLine: {'line': b'[ 47%] Building C object CMakeFiles/sentinel_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sentinel_interfaces/msg/detail/detection__type_support.c.o\n'}
+[5.872214] (sentinel_interfaces) StdoutLine: {'line': b'[ 47%] Building CXX object CMakeFiles/sentinel_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sentinel_interfaces/msg/video_rx_status__type_support.cpp.o\n'}
+[5.906396] (sentinel_interfaces) StdoutLine: {'line': b'[ 48%] Building C object CMakeFiles/sentinel_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sentinel_interfaces/msg/detail/detection2_d__type_support.c.o\n'}
+[5.917084] (sentinel_interfaces) StdoutLine: {'line': b'[ 49%] Building CXX object CMakeFiles/sentinel_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sentinel_interfaces/msg/yolo_status__type_support.cpp.o\n'}
+[5.934535] (sentinel_interfaces) StdoutLine: {'line': b'[ 50%] Building CXX object CMakeFiles/sentinel_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sentinel_interfaces/srv/set_bool_flag__type_support.cpp.o\n'}
+[5.936334] (-) TimerEvent: {}
+[5.955333] (sentinel_interfaces) StdoutLine: {'line': b'[ 51%] Building CXX object CMakeFiles/sentinel_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sentinel_interfaces/msg/detail/detection__type_support.cpp.o\n'}
+[5.974462] (sentinel_interfaces) StdoutLine: {'line': b'[ 51%] Building C object CMakeFiles/sentinel_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sentinel_interfaces/msg/detail/detection2_d_array__type_support.c.o\n'}
+[5.989121] (sentinel_interfaces) StdoutLine: {'line': b'[ 52%] Building CXX object CMakeFiles/sentinel_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sentinel_interfaces/msg/detail/detection2_d__type_support.cpp.o\n'}
+[6.022042] (sentinel_interfaces) StdoutLine: {'line': b'[ 52%] Building CXX object CMakeFiles/sentinel_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sentinel_interfaces/msg/detail/detection2_d_array__type_support.cpp.o\n'}
+[6.032915] (sentinel_interfaces) StdoutLine: {'line': b'[ 52%] Building CXX object CMakeFiles/sentinel_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sentinel_interfaces/srv/set_threshold__type_support.cpp.o\n'}
+[6.037458] (-) TimerEvent: {}
+[6.051628] (sentinel_interfaces) StdoutLine: {'line': b'[ 53%] Building CXX object CMakeFiles/sentinel_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sentinel_interfaces/msg/detail/frame_info__type_support.cpp.o\n'}
+[6.051871] (sentinel_interfaces) StdoutLine: {'line': b'[ 54%] Building C object CMakeFiles/sentinel_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sentinel_interfaces/msg/detail/frame_info__type_support.c.o\n'}
+[6.066283] (sentinel_interfaces) StdoutLine: {'line': b'[ 54%] Building CXX object CMakeFiles/sentinel_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sentinel_interfaces/msg/detail/frame_size__type_support.cpp.o\n'}
+[6.085385] (sentinel_interfaces) StdoutLine: {'line': b'[ 55%] Building CXX object CMakeFiles/sentinel_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sentinel_interfaces/msg/detail/motor_angle__type_support_c.cpp.o\n'}
+[6.116142] (sentinel_interfaces) StdoutLine: {'line': b'[ 56%] Building C object CMakeFiles/sentinel_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sentinel_interfaces/msg/detail/frame_size__type_support.c.o\n'}
+[6.137619] (-) TimerEvent: {}
+[6.166184] (sentinel_interfaces) StdoutLine: {'line': b'[ 57%] Building CXX object CMakeFiles/sentinel_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sentinel_interfaces/msg/detail/motor_command__type_support.cpp.o\n'}
+[6.172598] (sentinel_interfaces) StdoutLine: {'line': b'[ 57%] Building C object CMakeFiles/sentinel_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sentinel_interfaces/msg/detail/motor_command__type_support.c.o\n'}
+[6.188189] (sentinel_interfaces) StdoutLine: {'line': b'[ 58%] Building CXX object CMakeFiles/sentinel_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sentinel_interfaces/msg/detail/motor_status__type_support.cpp.o\n'}
+[6.209929] (sentinel_interfaces) StdoutLine: {'line': b'[ 59%] Building CXX object CMakeFiles/sentinel_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sentinel_interfaces/msg/detail/dds_fastrtps/motor_angle__type_support.cpp.o\n'}
+[6.233047] (sentinel_interfaces) StdoutLine: {'line': b'[ 59%] Building CXX object CMakeFiles/sentinel_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sentinel_interfaces/msg/detail/dds_fastrtps/detection__type_support.cpp.o\n'}
+[6.236675] (sentinel_interfaces) StdoutLine: {'line': b'[ 60%] Building C object CMakeFiles/sentinel_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sentinel_interfaces/msg/detail/motor_status__type_support.c.o\n'}
+[6.237761] (-) TimerEvent: {}
+[6.250020] (sentinel_interfaces) StdoutLine: {'line': b'[ 61%] Building CXX object CMakeFiles/sentinel_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sentinel_interfaces/msg/detail/dds_fastrtps/detection2_d__type_support.cpp.o\n'}
+[6.306299] (sentinel_interfaces) StdoutLine: {'line': b'[ 61%] Building C object CMakeFiles/sentinel_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sentinel_interfaces/msg/detail/tracked_detection2_d__type_support.c.o\n'}
+[6.315430] (sentinel_interfaces) StdoutLine: {'line': b'[ 62%] Building C object CMakeFiles/sentinel_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sentinel_interfaces/msg/detail/tracked_detection2_d_array__type_support.c.o\n'}
+[6.337920] (-) TimerEvent: {}
+[6.347162] (sentinel_interfaces) StdoutLine: {'line': b'[ 62%] Building CXX object CMakeFiles/sentinel_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sentinel_interfaces/msg/detail/tracked_detection2_d__type_support.cpp.o\n'}
+[6.377272] (sentinel_interfaces) StdoutLine: {'line': b'[ 63%] Building C object CMakeFiles/sentinel_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sentinel_interfaces/msg/detail/video_rx_status__type_support.c.o\n'}
+[6.393144] (sentinel_interfaces) StdoutLine: {'line': b'[ 64%] Building CXX object CMakeFiles/sentinel_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sentinel_interfaces/msg/detail/tracked_detection2_d_array__type_support.cpp.o\n'}
+[6.395529] (sentinel_interfaces) StdoutLine: {'line': b'[ 64%] Building CXX object CMakeFiles/sentinel_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sentinel_interfaces/msg/detail/video_rx_status__type_support.cpp.o\n'}
+[6.412499] (sentinel_interfaces) StdoutLine: {'line': b'[ 64%] Building C object CMakeFiles/sentinel_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sentinel_interfaces/msg/detail/yolo_status__type_support.c.o\n'}
+[6.415684] (sentinel_interfaces) StdoutLine: {'line': b'[ 65%] Building C object CMakeFiles/sentinel_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sentinel_interfaces/srv/detail/set_bool_flag__type_support.c.o\n'}
+[6.436292] (sentinel_interfaces) StdoutLine: {'line': b'[ 66%] Building CXX object CMakeFiles/sentinel_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sentinel_interfaces/msg/detail/yolo_status__type_support.cpp.o\n'}
+[6.438031] (-) TimerEvent: {}
+[6.462661] (sentinel_interfaces) StdoutLine: {'line': b'[ 67%] Building CXX object CMakeFiles/sentinel_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sentinel_interfaces/srv/detail/set_bool_flag__type_support.cpp.o\n'}
+[6.470652] (sentinel_interfaces) StdoutLine: {'line': b'[ 67%] Building C object CMakeFiles/sentinel_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sentinel_interfaces/srv/detail/set_threshold__type_support.c.o\n'}
+[6.482450] (sentinel_interfaces) StdoutLine: {'line': b'[ 68%] Building CXX object CMakeFiles/sentinel_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sentinel_interfaces/msg/detail/detection__type_support_c.cpp.o\n'}
+[6.487124] (sentinel_interfaces) StdoutLine: {'line': b'[ 68%] Building CXX object CMakeFiles/sentinel_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sentinel_interfaces/srv/detail/set_threshold__type_support.cpp.o\n'}
+[6.518835] (sentinel_interfaces) StdoutLine: {'line': b'[ 69%] Linking C shared library libsentinel_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[6.538180] (-) TimerEvent: {}
+[6.542427] (sentinel_interfaces) StdoutLine: {'line': b'[ 70%] Building CXX object CMakeFiles/sentinel_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sentinel_interfaces/msg/detail/dds_fastrtps/detection2_d_array__type_support.cpp.o\n'}
+[6.566478] (sentinel_interfaces) StdoutLine: {'line': b'[ 71%] Linking CXX shared library libsentinel_interfaces__rosidl_typesupport_cpp.so\n'}
+[6.574435] (sentinel_interfaces) StdoutLine: {'line': b'[ 71%] Building CXX object CMakeFiles/sentinel_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sentinel_interfaces/msg/detail/detection2_d__type_support_c.cpp.o\n'}
+[6.574638] (sentinel_interfaces) StdoutLine: {'line': b'[ 71%] Built target sentinel_interfaces__rosidl_typesupport_introspection_c\n'}
+[6.582436] (sentinel_interfaces) StdoutLine: {'line': b'[ 72%] Building CXX object CMakeFiles/sentinel_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sentinel_interfaces/msg/detail/detection2_d_array__type_support_c.cpp.o\n'}
+[6.596106] (sentinel_interfaces) StdoutLine: {'line': b'[ 72%] Building CXX object CMakeFiles/sentinel_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sentinel_interfaces/msg/detail/frame_info__type_support_c.cpp.o\n'}
+[6.620587] (sentinel_interfaces) StdoutLine: {'line': b'[ 72%] Building CXX object CMakeFiles/sentinel_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sentinel_interfaces/msg/detail/dds_fastrtps/frame_info__type_support.cpp.o\n'}
+[6.627089] (sentinel_interfaces) StdoutLine: {'line': b'[ 73%] Building CXX object CMakeFiles/sentinel_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sentinel_interfaces/msg/detail/dds_fastrtps/frame_size__type_support.cpp.o\n'}
+[6.638280] (-) TimerEvent: {}
+[6.643935] (sentinel_interfaces) StdoutLine: {'line': b'[ 73%] Building CXX object CMakeFiles/sentinel_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sentinel_interfaces/msg/detail/dds_fastrtps/motor_command__type_support.cpp.o\n'}
+[6.651501] (sentinel_interfaces) StdoutLine: {'line': b'[ 73%] Built target sentinel_interfaces__rosidl_typesupport_cpp\n'}
+[6.655287] (sentinel_interfaces) StdoutLine: {'line': b'[ 74%] Building CXX object CMakeFiles/sentinel_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sentinel_interfaces/msg/detail/dds_fastrtps/motor_status__type_support.cpp.o\n'}
+[6.663193] (sentinel_interfaces) StdoutLine: {'line': b'[ 75%] Building CXX object CMakeFiles/sentinel_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sentinel_interfaces/msg/detail/frame_size__type_support_c.cpp.o\n'}
+[6.682616] (sentinel_interfaces) StdoutLine: {'line': b'[ 76%] Building CXX object CMakeFiles/sentinel_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sentinel_interfaces/msg/detail/motor_command__type_support_c.cpp.o\n'}
+[6.700150] (sentinel_interfaces) StdoutLine: {'line': b'[ 77%] Building CXX object CMakeFiles/sentinel_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sentinel_interfaces/msg/detail/dds_fastrtps/tracked_detection2_d__type_support.cpp.o\n'}
+[6.738437] (-) TimerEvent: {}
+[6.798089] (sentinel_interfaces) StdoutLine: {'line': b'[ 77%] Building CXX object CMakeFiles/sentinel_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sentinel_interfaces/msg/detail/dds_fastrtps/tracked_detection2_d_array__type_support.cpp.o\n'}
+[6.838591] (-) TimerEvent: {}
+[6.869602] (sentinel_interfaces) StdoutLine: {'line': b'[ 78%] Linking CXX shared library libsentinel_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[6.938729] (-) TimerEvent: {}
+[6.953057] (sentinel_interfaces) StdoutLine: {'line': b'[ 78%] Building CXX object CMakeFiles/sentinel_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sentinel_interfaces/msg/detail/motor_status__type_support_c.cpp.o\n'}
+[6.955943] (sentinel_interfaces) StdoutLine: {'line': b'[ 78%] Built target sentinel_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[6.966468] (sentinel_interfaces) StdoutLine: {'line': b'[ 79%] Building CXX object CMakeFiles/sentinel_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sentinel_interfaces/msg/detail/tracked_detection2_d__type_support_c.cpp.o\n'}
+[6.986681] (sentinel_interfaces) StdoutLine: {'line': b'[ 80%] Building CXX object CMakeFiles/sentinel_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sentinel_interfaces/msg/detail/tracked_detection2_d_array__type_support_c.cpp.o\n'}
+[6.993878] (sentinel_interfaces) StdoutLine: {'line': b'[ 81%] Building CXX object CMakeFiles/sentinel_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sentinel_interfaces/msg/detail/dds_fastrtps/video_rx_status__type_support.cpp.o\n'}
+[7.028089] (sentinel_interfaces) StdoutLine: {'line': b'[ 82%] Building CXX object CMakeFiles/sentinel_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sentinel_interfaces/msg/detail/dds_fastrtps/yolo_status__type_support.cpp.o\n'}
+[7.038849] (-) TimerEvent: {}
+[7.042759] (sentinel_interfaces) StdoutLine: {'line': b'[ 82%] Building CXX object CMakeFiles/sentinel_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sentinel_interfaces/msg/detail/video_rx_status__type_support_c.cpp.o\n'}
+[7.054469] (sentinel_interfaces) StdoutLine: {'line': b'[ 82%] Building CXX object CMakeFiles/sentinel_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sentinel_interfaces/srv/detail/dds_fastrtps/set_bool_flag__type_support.cpp.o\n'}
+[7.130640] (sentinel_interfaces) StdoutLine: {'line': b'[ 83%] Building CXX object CMakeFiles/sentinel_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sentinel_interfaces/msg/detail/yolo_status__type_support_c.cpp.o\n'}
+[7.138973] (-) TimerEvent: {}
+[7.150092] (sentinel_interfaces) StdoutLine: {'line': b'[ 84%] Building CXX object CMakeFiles/sentinel_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sentinel_interfaces/srv/detail/dds_fastrtps/set_threshold__type_support.cpp.o\n'}
+[7.170015] (sentinel_interfaces) StdoutLine: {'line': b'[ 84%] Building CXX object CMakeFiles/sentinel_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sentinel_interfaces/srv/detail/set_bool_flag__type_support_c.cpp.o\n'}
+[7.233605] (sentinel_interfaces) StdoutLine: {'line': b'[ 85%] Building CXX object CMakeFiles/sentinel_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sentinel_interfaces/srv/detail/set_threshold__type_support_c.cpp.o\n'}
+[7.239089] (-) TimerEvent: {}
+[7.339319] (-) TimerEvent: {}
+[7.439543] (-) TimerEvent: {}
+[7.539767] (-) TimerEvent: {}
+[7.640013] (-) TimerEvent: {}
+[7.647562] (sentinel_interfaces) StdoutLine: {'line': b'[ 86%] Linking CXX shared library libsentinel_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[7.692481] (sentinel_interfaces) StdoutLine: {'line': b'[ 86%] Linking CXX shared library libsentinel_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[7.740425] (-) TimerEvent: {}
+[7.746429] (sentinel_interfaces) StdoutLine: {'line': b'[ 86%] Built target sentinel_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[7.777025] (sentinel_interfaces) StdoutLine: {'line': b'[ 86%] Built target sentinel_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[7.795757] (sentinel_interfaces) StdoutLine: {'line': b'[ 86%] Built target sentinel_interfaces\n'}
+[7.812917] (sentinel_interfaces) StdoutLine: {'line': b'[ 87%] Generating Python code for ROS interfaces\n'}
+[7.840515] (-) TimerEvent: {}
+[7.942438] (-) TimerEvent: {}
+[8.042636] (-) TimerEvent: {}
+[8.142827] (-) TimerEvent: {}
+[8.243020] (-) TimerEvent: {}
+[8.343219] (-) TimerEvent: {}
+[8.443432] (-) TimerEvent: {}
+[8.543666] (-) TimerEvent: {}
+[8.643893] (-) TimerEvent: {}
+[8.744130] (-) TimerEvent: {}
+[8.844359] (-) TimerEvent: {}
+[8.944554] (-) TimerEvent: {}
+[9.037700] (sentinel_interfaces) StdoutLine: {'line': b'[ 87%] Built target sentinel_interfaces__py\n'}
+[9.044643] (-) TimerEvent: {}
+[9.057529] (sentinel_interfaces) StdoutLine: {'line': b'[ 87%] Building C object CMakeFiles/sentinel_interfaces__rosidl_generator_py.dir/rosidl_generator_py/sentinel_interfaces/msg/_detection2_d_s.c.o\n'}
+[9.057724] (sentinel_interfaces) StdoutLine: {'line': b'[ 88%] Building C object CMakeFiles/sentinel_interfaces__rosidl_generator_py.dir/rosidl_generator_py/sentinel_interfaces/msg/_motor_command_s.c.o\n'}
+[9.057774] (sentinel_interfaces) StdoutLine: {'line': b'[ 89%] Building C object CMakeFiles/sentinel_interfaces__rosidl_generator_py.dir/rosidl_generator_py/sentinel_interfaces/msg/_tracked_detection2_d_s.c.o\n'}
+[9.057814] (sentinel_interfaces) StdoutLine: {'line': b'[ 89%] Building C object CMakeFiles/sentinel_interfaces__rosidl_generator_py.dir/rosidl_generator_py/sentinel_interfaces/msg/_frame_size_s.c.o\n'}
+[9.061410] (sentinel_interfaces) StdoutLine: {'line': b'[ 90%] Building C object CMakeFiles/sentinel_interfaces__rosidl_generator_py.dir/rosidl_generator_py/sentinel_interfaces/msg/_frame_info_s.c.o\n'}
+[9.061605] (sentinel_interfaces) StdoutLine: {'line': b'[ 91%] Building C object CMakeFiles/sentinel_interfaces__rosidl_generator_py.dir/rosidl_generator_py/sentinel_interfaces/msg/_detection2_d_array_s.c.o\n'}
+[9.061662] (sentinel_interfaces) StdoutLine: {'line': b'[ 92%] Building C object CMakeFiles/sentinel_interfaces__rosidl_generator_py.dir/rosidl_generator_py/sentinel_interfaces/msg/_detection_s.c.o\n'}
+[9.061700] (sentinel_interfaces) StdoutLine: {'line': b'[ 92%] Building C object CMakeFiles/sentinel_interfaces__rosidl_generator_py.dir/rosidl_generator_py/sentinel_interfaces/msg/_motor_angle_s.c.o\n'}
+[9.063346] (sentinel_interfaces) StdoutLine: {'line': b'[ 92%] Building C object CMakeFiles/sentinel_interfaces__rosidl_generator_py.dir/rosidl_generator_py/sentinel_interfaces/msg/_motor_status_s.c.o\n'}
+[9.067671] (sentinel_interfaces) StdoutLine: {'line': b'[ 93%] Building C object CMakeFiles/sentinel_interfaces__rosidl_generator_py.dir/rosidl_generator_py/sentinel_interfaces/msg/_tracked_detection2_d_array_s.c.o\n'}
+[9.089979] (sentinel_interfaces) StdoutLine: {'line': b'[ 94%] Building C object CMakeFiles/sentinel_interfaces__rosidl_generator_py.dir/rosidl_generator_py/sentinel_interfaces/srv/_set_threshold_s.c.o\n'}
+[9.097900] (sentinel_interfaces) StdoutLine: {'line': b'[ 94%] Building C object CMakeFiles/sentinel_interfaces__rosidl_generator_py.dir/rosidl_generator_py/sentinel_interfaces/msg/_video_rx_status_s.c.o\n'}
+[9.103794] (sentinel_interfaces) StdoutLine: {'line': b'[ 95%] Building C object CMakeFiles/sentinel_interfaces__rosidl_generator_py.dir/rosidl_generator_py/sentinel_interfaces/msg/_yolo_status_s.c.o\n'}
+[9.103946] (sentinel_interfaces) StdoutLine: {'line': b'[ 95%] Building C object CMakeFiles/sentinel_interfaces__rosidl_generator_py.dir/rosidl_generator_py/sentinel_interfaces/srv/_set_bool_flag_s.c.o\n'}
+[9.144767] (-) TimerEvent: {}
+[9.244975] (-) TimerEvent: {}
+[9.337061] (sentinel_interfaces) StdoutLine: {'line': b'[ 96%] Linking C shared library libsentinel_interfaces__rosidl_generator_py.so\n'}
+[9.345068] (-) TimerEvent: {}
+[9.393448] (sentinel_interfaces) StdoutLine: {'line': b'[ 96%] Built target sentinel_interfaces__rosidl_generator_py\n'}
+[9.414555] (sentinel_interfaces) StdoutLine: {'line': b'[ 97%] Building C object CMakeFiles/sentinel_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/sentinel_interfaces/_sentinel_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\n'}
+[9.414765] (sentinel_interfaces) StdoutLine: {'line': b'[ 98%] Building C object CMakeFiles/sentinel_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/sentinel_interfaces/_sentinel_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\n'}
+[9.416062] (sentinel_interfaces) StdoutLine: {'line': b'[ 98%] Building C object CMakeFiles/sentinel_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/sentinel_interfaces/_sentinel_interfaces_s.ep.rosidl_typesupport_c.c.o\n'}
+[9.445493] (-) TimerEvent: {}
+[9.545740] (-) TimerEvent: {}
+[9.558981] (sentinel_interfaces) StdoutLine: {'line': b'[ 98%] Linking C shared module rosidl_generator_py/sentinel_interfaces/sentinel_interfaces_s__rosidl_typesupport_fastrtps_c.so\n'}
+[9.559426] (sentinel_interfaces) StdoutLine: {'line': b'[ 99%] Linking C shared module rosidl_generator_py/sentinel_interfaces/sentinel_interfaces_s__rosidl_typesupport_c.so\n'}
+[9.563352] (sentinel_interfaces) StdoutLine: {'line': b'[100%] Linking C shared module rosidl_generator_py/sentinel_interfaces/sentinel_interfaces_s__rosidl_typesupport_introspection_c.so\n'}
+[9.594952] (sentinel_interfaces) StdoutLine: {'line': b'[100%] Built target sentinel_interfaces_s__rosidl_typesupport_fastrtps_c\n'}
+[9.595178] (sentinel_interfaces) StdoutLine: {'line': b'[100%] Built target sentinel_interfaces_s__rosidl_typesupport_c\n'}
+[9.597081] (sentinel_interfaces) StdoutLine: {'line': b'[100%] Built target sentinel_interfaces_s__rosidl_typesupport_introspection_c\n'}
+[9.614038] (sentinel_interfaces) CommandEnded: {'returncode': 0}
+[9.615434] (sentinel_interfaces) JobProgress: {'identifier': 'sentinel_interfaces', 'progress': 'install'}
+[9.626245] (sentinel_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/root/ros2_ws/build/sentinel_interfaces'], 'cwd': '/root/ros2_ws/build/sentinel_interfaces', 'env': OrderedDict({'LANGUAGE': 'en_US:en', 'SHLVL': '0', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/lib', 'HOME': '/root', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'LANG': 'en_US.UTF-8', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'DEBIAN_FRONTEND': 'noninteractive', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/root/ros2_ws/build/sentinel_interfaces', 'LC_ALL': 'en_US.UTF-8', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'TZ': 'Asia/Seoul', 'COLCON': '1'}), 'shell': False}
+[9.635713] (sentinel_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.636004] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/share/ament_index/resource_index/rosidl_interfaces/sentinel_interfaces\n'}
+[9.636132] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/share/sentinel_interfaces/msg/MotorAngle.json\n'}
+[9.636261] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/share/sentinel_interfaces/msg/Detection.json\n'}
+[9.636389] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/share/sentinel_interfaces/msg/Detection2D.json\n'}
+[9.636523] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/share/sentinel_interfaces/msg/Detection2DArray.json\n'}
+[9.636659] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/share/sentinel_interfaces/msg/FrameInfo.json\n'}
+[9.636783] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/share/sentinel_interfaces/msg/FrameSize.json\n'}
+[9.636911] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/share/sentinel_interfaces/msg/MotorCommand.json\n'}
+[9.637042] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/share/sentinel_interfaces/msg/MotorStatus.json\n'}
+[9.637178] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/share/sentinel_interfaces/msg/TrackedDetection2D.json\n'}
+[9.637313] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/share/sentinel_interfaces/msg/TrackedDetection2DArray.json\n'}
+[9.637446] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/share/sentinel_interfaces/msg/VideoRxStatus.json\n'}
+[9.637578] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/share/sentinel_interfaces/msg/YoloStatus.json\n'}
+[9.637744] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/share/sentinel_interfaces/srv/SetBoolFlag.json\n'}
+[9.637879] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/share/sentinel_interfaces/srv/SetThreshold.json\n'}
+[9.638014] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces\n'}
+[9.638141] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/srv\n'}
+[9.638245] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/srv/set_bool_flag.h\n'}
+[9.638341] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/srv/set_threshold.h\n'}
+[9.638481] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/srv/detail\n'}
+[9.638586] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/srv/detail/set_threshold__description.c\n'}
+[9.638683] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/srv/detail/set_bool_flag__type_support.h\n'}
+[9.638786] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/srv/detail/set_threshold__struct.h\n'}
+[9.638901] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/srv/detail/set_bool_flag__type_support.c\n'}
+[9.639013] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/srv/detail/set_bool_flag__functions.h\n'}
+[9.639166] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/srv/detail/set_bool_flag__description.c\n'}
+[9.639293] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/srv/detail/set_threshold__type_support.h\n'}
+[9.639407] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/srv/detail/set_bool_flag__struct.h\n'}
+[9.639521] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/srv/detail/set_threshold__type_support.c\n'}
+[9.639635] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/srv/detail/set_threshold__functions.c\n'}
+[9.639774] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/srv/detail/set_bool_flag__functions.c\n'}
+[9.639903] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/srv/detail/set_threshold__functions.h\n'}
+[9.640036] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg\n'}
+[9.640135] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/frame_info.h\n'}
+[9.640230] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/motor_command.h\n'}
+[9.640335] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detection.h\n'}
+[9.640445] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/tracked_detection2_d_array.h\n'}
+[9.640553] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/frame_size.h\n'}
+[9.640661] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/motor_angle.h\n'}
+[9.640781] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[9.640891] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detection2_d_array.h\n'}
+[9.641004] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/tracked_detection2_d.h\n'}
+[9.641107] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detection2_d.h\n'}
+[9.641217] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/yolo_status.h\n'}
+[9.641319] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/motor_status.h\n'}
+[9.641425] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/video_rx_status.h\n'}
+[9.641526] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail\n'}
+[9.641637] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/tracked_detection2_d__functions.c\n'}
+[9.641756] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/detection__functions.h\n'}
+[9.641872] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/motor_status__type_support.c\n'}
+[9.641985] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/yolo_status__functions.h\n'}
+[9.642101] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/detection2_d_array__functions.h\n'}
+[9.642220] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/video_rx_status__description.c\n'}
+[9.642347] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/detection__struct.h\n'}
+[9.642469] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/detection2_d_array__type_support.c\n'}
+[9.642580] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/yolo_status__functions.c\n'}
+[9.642695] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/yolo_status__type_support.h\n'}
+[9.644166] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/video_rx_status__functions.c\n'}
+[9.644313] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/detection__type_support.c\n'}
+[9.644361] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/tracked_detection2_d__type_support.c\n'}
+[9.644401] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/motor_command__struct.h\n'}
+[9.644452] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/detection2_d_array__struct.h\n'}
+[9.644488] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/frame_size__type_support.c\n'}
+[9.644524] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/detection__functions.c\n'}
+[9.644560] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/tracked_detection2_d_array__type_support.h\n'}
+[9.644596] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/frame_info__description.c\n'}
+[9.644631] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/frame_info__type_support.h\n'}
+[9.644666] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/frame_info__functions.h\n'}
+[9.644701] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/motor_status__type_support.h\n'}
+[9.644737] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/detection2_d_array__functions.c\n'}
+[9.645796] (-) TimerEvent: {}
+[9.646515] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/motor_angle__struct.h\n'}
+[9.646628] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/motor_status__functions.h\n'}
+[9.646670] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/frame_info__struct.h\n'}
+[9.646706] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/motor_command__type_support.h\n'}
+[9.646742] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/detection2_d__functions.h\n'}
+[9.646777] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/tracked_detection2_d__type_support.h\n'}
+[9.646813] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/detection2_d__struct.h\n'}
+[9.646854] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/detection2_d_array__type_support.h\n'}
+[9.646896] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/tracked_detection2_d_array__functions.h\n'}
+[9.646937] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/motor_command__description.c\n'}
+[9.646979] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/detection2_d__type_support.c\n'}
+[9.647101] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/motor_status__functions.c\n'}
+[9.647140] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/motor_angle__functions.h\n'}
+[9.647214] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/video_rx_status__type_support.c\n'}
+[9.647257] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/frame_size__functions.c\n'}
+[9.647298] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/tracked_detection2_d_array__functions.c\n'}
+[9.647338] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/motor_angle__functions.c\n'}
+[9.647379] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/tracked_detection2_d_array__struct.h\n'}
+[9.647420] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/detection__description.c\n'}
+[9.647461] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/motor_angle__type_support.h\n'}
+[9.647500] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/video_rx_status__type_support.h\n'}
+[9.647541] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/video_rx_status__struct.h\n'}
+[9.647581] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/tracked_detection2_d_array__description.c\n'}
+[9.647622] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/video_rx_status__functions.h\n'}
+[9.647662] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/frame_size__struct.h\n'}
+[9.647702] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/yolo_status__struct.h\n'}
+[9.647743] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/frame_info__functions.c\n'}
+[9.647784] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/frame_size__functions.h\n'}
+[9.647884] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/frame_size__description.c\n'}
+[9.647929] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/motor_command__functions.c\n'}
+[9.647970] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/motor_angle__type_support.c\n'}
+[9.648039] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/motor_command__type_support.c\n'}
+[9.648080] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/motor_status__description.c\n'}
+[9.648121] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/tracked_detection2_d__functions.h\n'}
+[9.648161] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/detection2_d__functions.c\n'}
+[9.648201] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/tracked_detection2_d_array__type_support.c\n'}
+[9.648282] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/motor_command__functions.h\n'}
+[9.648323] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/tracked_detection2_d__struct.h\n'}
+[9.648364] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/yolo_status__type_support.c\n'}
+[9.648429] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/detection2_d__type_support.h\n'}
+[9.648518] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/frame_info__type_support.c\n'}
+[9.648561] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/detection__type_support.h\n'}
+[9.648637] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/motor_angle__description.c\n'}
+[9.648675] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/yolo_status__description.c\n'}
+[9.648749] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/frame_size__type_support.h\n'}
+[9.648816] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/detection2_d_array__description.c\n'}
+[9.648892] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/detection2_d__description.c\n'}
+[9.648981] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/motor_status__struct.h\n'}
+[9.649071] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/tracked_detection2_d__description.c\n'}
+[9.649262] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/share/sentinel_interfaces/environment/library_path.sh\n'}
+[9.649369] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/share/sentinel_interfaces/environment/library_path.dsv\n'}
+[9.649515] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/lib/libsentinel_interfaces__rosidl_generator_c.so\n'}
+[9.653059] (sentinel_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/root/ros2_ws/install/sentinel_interfaces/lib/libsentinel_interfaces__rosidl_generator_c.so" to ""\n'}
+[9.653182] (sentinel_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces\n'}
+[9.653228] (sentinel_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/srv\n'}
+[9.653270] (sentinel_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/srv/detail\n'}
+[9.653312] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/srv/detail/set_threshold__rosidl_typesupport_fastrtps_c.h\n'}
+[9.653355] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/srv/detail/set_bool_flag__rosidl_typesupport_fastrtps_c.h\n'}
+[9.653397] (sentinel_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg\n'}
+[9.653438] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[9.653480] (sentinel_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail\n'}
+[9.653522] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/yolo_status__rosidl_typesupport_fastrtps_c.h\n'}
+[9.653564] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/motor_command__rosidl_typesupport_fastrtps_c.h\n'}
+[9.653605] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/frame_info__rosidl_typesupport_fastrtps_c.h\n'}
+[9.653647] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/video_rx_status__rosidl_typesupport_fastrtps_c.h\n'}
+[9.653689] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/motor_status__rosidl_typesupport_fastrtps_c.h\n'}
+[9.653731] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/detection2_d_array__rosidl_typesupport_fastrtps_c.h\n'}
+[9.653784] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/detection__rosidl_typesupport_fastrtps_c.h\n'}
+[9.653866] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/tracked_detection2_d_array__rosidl_typesupport_fastrtps_c.h\n'}
+[9.653924] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/frame_size__rosidl_typesupport_fastrtps_c.h\n'}
+[9.653966] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/tracked_detection2_d__rosidl_typesupport_fastrtps_c.h\n'}
+[9.654033] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/detection2_d__rosidl_typesupport_fastrtps_c.h\n'}
+[9.654075] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/motor_angle__rosidl_typesupport_fastrtps_c.h\n'}
+[9.654118] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/lib/libsentinel_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[9.654159] (sentinel_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/root/ros2_ws/install/sentinel_interfaces/lib/libsentinel_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[9.654200] (sentinel_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces\n'}
+[9.654242] (sentinel_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/srv\n'}
+[9.654283] (sentinel_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/srv/detail\n'}
+[9.654324] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/srv/detail/set_bool_flag__type_support.c\n'}
+[9.654366] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/srv/detail/set_bool_flag__rosidl_typesupport_introspection_c.h\n'}
+[9.654416] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/srv/detail/set_threshold__rosidl_typesupport_introspection_c.h\n'}
+[9.654460] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/srv/detail/set_threshold__type_support.c\n'}
+[9.654501] (sentinel_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg\n'}
+[9.654543] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[9.654584] (sentinel_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail\n'}
+[9.654626] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/motor_status__type_support.c\n'}
+[9.654668] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/motor_command__rosidl_typesupport_introspection_c.h\n'}
+[9.654710] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/yolo_status__rosidl_typesupport_introspection_c.h\n'}
+[9.654752] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/detection2_d_array__type_support.c\n'}
+[9.654793] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/detection__type_support.c\n'}
+[9.654835] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/tracked_detection2_d__type_support.c\n'}
+[9.654906] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/frame_size__type_support.c\n'}
+[9.654948] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/frame_size__rosidl_typesupport_introspection_c.h\n'}
+[9.654991] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/detection__rosidl_typesupport_introspection_c.h\n'}
+[9.655041] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/frame_info__rosidl_typesupport_introspection_c.h\n'}
+[9.655087] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/motor_status__rosidl_typesupport_introspection_c.h\n'}
+[9.655166] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/detection2_d__rosidl_typesupport_introspection_c.h\n'}
+[9.655209] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/detection2_d__type_support.c\n'}
+[9.655251] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/video_rx_status__rosidl_typesupport_introspection_c.h\n'}
+[9.655294] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/video_rx_status__type_support.c\n'}
+[9.655336] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/motor_angle__type_support.c\n'}
+[9.655378] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/motor_command__type_support.c\n'}
+[9.655420] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/tracked_detection2_d_array__rosidl_typesupport_introspection_c.h\n'}
+[9.655465] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/tracked_detection2_d_array__type_support.c\n'}
+[9.655507] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/motor_angle__rosidl_typesupport_introspection_c.h\n'}
+[9.655549] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/yolo_status__type_support.c\n'}
+[9.655591] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/frame_info__type_support.c\n'}
+[9.655666] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/tracked_detection2_d__rosidl_typesupport_introspection_c.h\n'}
+[9.655710] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/detection2_d_array__rosidl_typesupport_introspection_c.h\n'}
+[9.655786] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/lib/libsentinel_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[9.655829] (sentinel_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/root/ros2_ws/install/sentinel_interfaces/lib/libsentinel_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[9.655871] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/lib/libsentinel_interfaces__rosidl_typesupport_c.so\n'}
+[9.655953] (sentinel_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/root/ros2_ws/install/sentinel_interfaces/lib/libsentinel_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[9.655992] (sentinel_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces\n'}
+[9.656029] (sentinel_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/srv\n'}
+[9.656071] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/srv/set_bool_flag.hpp\n'}
+[9.656147] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/srv/set_threshold.hpp\n'}
+[9.656192] (sentinel_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/srv/detail\n'}
+[9.656275] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/srv/detail/set_threshold__type_support.hpp\n'}
+[9.656313] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/srv/detail/set_threshold__struct.hpp\n'}
+[9.656393] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/srv/detail/set_bool_flag__traits.hpp\n'}
+[9.656462] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/srv/detail/set_bool_flag__builder.hpp\n'}
+[9.656531] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/srv/detail/set_bool_flag__type_support.hpp\n'}
+[9.656619] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/srv/detail/set_threshold__builder.hpp\n'}
+[9.656709] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/srv/detail/set_bool_flag__struct.hpp\n'}
+[9.656819] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/srv/detail/set_threshold__traits.hpp\n'}
+[9.656910] (sentinel_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg\n'}
+[9.656986] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/video_rx_status.hpp\n'}
+[9.657053] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/motor_command.hpp\n'}
+[9.657121] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detection2_d_array.hpp\n'}
+[9.657205] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/motor_status.hpp\n'}
+[9.657293] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/tracked_detection2_d_array.hpp\n'}
+[9.657377] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detection2_d.hpp\n'}
+[9.657458] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/frame_size.hpp\n'}
+[9.657579] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detection.hpp\n'}
+[9.657648] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/motor_angle.hpp\n'}
+[9.657712] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/frame_info.hpp\n'}
+[9.657829] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/tracked_detection2_d.hpp\n'}
+[9.657891] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[9.657974] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/yolo_status.hpp\n'}
+[9.658060] (sentinel_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail\n'}
+[9.658129] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/detection2_d__traits.hpp\n'}
+[9.658206] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/motor_status__struct.hpp\n'}
+[9.658303] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/frame_size__type_support.hpp\n'}
+[9.658398] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/detection2_d_array__type_support.hpp\n'}
+[9.658493] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/yolo_status__traits.hpp\n'}
+[9.658583] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/motor_angle__struct.hpp\n'}
+[9.658676] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/frame_info__type_support.hpp\n'}
+[9.658768] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/motor_command__traits.hpp\n'}
+[9.658861] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/tracked_detection2_d__type_support.hpp\n'}
+[9.658953] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/frame_size__struct.hpp\n'}
+[9.659044] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/yolo_status__struct.hpp\n'}
+[9.659138] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/motor_angle__type_support.hpp\n'}
+[9.659224] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/frame_info__builder.hpp\n'}
+[9.659312] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/video_rx_status__traits.hpp\n'}
+[9.659413] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/detection2_d_array__traits.hpp\n'}
+[9.659505] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/tracked_detection2_d__builder.hpp\n'}
+[9.659600] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/tracked_detection2_d_array__type_support.hpp\n'}
+[9.659692] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/yolo_status__builder.hpp\n'}
+[9.659781] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/tracked_detection2_d__traits.hpp\n'}
+[9.659874] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/detection2_d__type_support.hpp\n'}
+[9.659963] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/detection2_d__struct.hpp\n'}
+[9.660067] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/tracked_detection2_d_array__traits.hpp\n'}
+[9.660159] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/detection2_d_array__struct.hpp\n'}
+[9.660256] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/detection2_d_array__builder.hpp\n'}
+[9.660348] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/frame_size__builder.hpp\n'}
+[9.660438] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/motor_status__type_support.hpp\n'}
+[9.660529] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/motor_status__traits.hpp\n'}
+[9.660625] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/video_rx_status__type_support.hpp\n'}
+[9.660720] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/tracked_detection2_d__struct.hpp\n'}
+[9.660812] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/detection__builder.hpp\n'}
+[9.660897] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/frame_size__traits.hpp\n'}
+[9.660986] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/tracked_detection2_d_array__builder.hpp\n'}
+[9.661082] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/tracked_detection2_d_array__struct.hpp\n'}
+[9.661172] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/motor_status__builder.hpp\n'}
+[9.661267] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/motor_command__type_support.hpp\n'}
+[9.661357] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/motor_angle__traits.hpp\n'}
+[9.661448] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/frame_info__traits.hpp\n'}
+[9.661540] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/motor_command__builder.hpp\n'}
+[9.661630] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/frame_info__struct.hpp\n'}
+[9.661723] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/detection2_d__builder.hpp\n'}
+[9.661812] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/yolo_status__type_support.hpp\n'}
+[9.661903] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/detection__type_support.hpp\n'}
+[9.661999] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/video_rx_status__struct.hpp\n'}
+[9.662091] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/detection__struct.hpp\n'}
+[9.662187] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/video_rx_status__builder.hpp\n'}
+[9.662280] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/motor_command__struct.hpp\n'}
+[9.662370] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/detection__traits.hpp\n'}
+[9.662761] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/motor_angle__builder.hpp\n'}
+[9.662982] (sentinel_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces\n'}
+[9.663027] (sentinel_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/srv\n'}
+[9.663069] (sentinel_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/srv/detail\n'}
+[9.663149] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/srv/detail/set_bool_flag__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[9.663206] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/srv/detail/dds_fastrtps\n'}
+[9.663277] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/srv/detail/set_threshold__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[9.663339] (sentinel_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg\n'}
+[9.663414] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[9.663460] (sentinel_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail\n'}
+[9.663540] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/detection2_d_array__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[9.663579] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/yolo_status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[9.663641] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/detection2_d__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[9.663716] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/motor_command__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[9.663817] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/tracked_detection2_d__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[9.663918] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/dds_fastrtps\n'}
+[9.663993] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/video_rx_status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[9.664087] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/frame_info__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[9.664180] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/motor_angle__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[9.664270] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/frame_size__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[9.664364] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/detection__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[9.664461] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/tracked_detection2_d_array__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[9.664553] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/motor_status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[9.664686] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/lib/libsentinel_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[9.665209] (sentinel_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/root/ros2_ws/install/sentinel_interfaces/lib/libsentinel_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[9.665281] (sentinel_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces\n'}
+[9.665324] (sentinel_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/srv\n'}
+[9.665398] (sentinel_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/srv/detail\n'}
+[9.665436] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/srv/detail/set_bool_flag__type_support.cpp\n'}
+[9.665499] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/srv/detail/set_bool_flag__rosidl_typesupport_introspection_cpp.hpp\n'}
+[9.665571] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/srv/detail/set_threshold__rosidl_typesupport_introspection_cpp.hpp\n'}
+[9.665663] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/srv/detail/set_threshold__type_support.cpp\n'}
+[9.665768] (sentinel_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg\n'}
+[9.665850] (sentinel_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail\n'}
+[9.665888] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/motor_angle__type_support.cpp\n'}
+[9.665943] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/detection2_d__type_support.cpp\n'}
+[9.666041] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/motor_command__rosidl_typesupport_introspection_cpp.hpp\n'}
+[9.666140] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/detection__rosidl_typesupport_introspection_cpp.hpp\n'}
+[9.666236] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/frame_info__type_support.cpp\n'}
+[9.666328] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/motor_angle__rosidl_typesupport_introspection_cpp.hpp\n'}
+[9.666431] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/motor_status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[9.666526] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/detection2_d__rosidl_typesupport_introspection_cpp.hpp\n'}
+[9.666619] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/detection__type_support.cpp\n'}
+[9.666719] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/frame_size__type_support.cpp\n'}
+[9.666814] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/video_rx_status__type_support.cpp\n'}
+[9.666909] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/tracked_detection2_d_array__type_support.cpp\n'}
+[9.667007] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/yolo_status__type_support.cpp\n'}
+[9.667126] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/detection2_d_array__rosidl_typesupport_introspection_cpp.hpp\n'}
+[9.667219] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/frame_info__rosidl_typesupport_introspection_cpp.hpp\n'}
+[9.667321] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/tracked_detection2_d__rosidl_typesupport_introspection_cpp.hpp\n'}
+[9.667412] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/motor_command__type_support.cpp\n'}
+[9.667512] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/video_rx_status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[9.667607] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/frame_size__rosidl_typesupport_introspection_cpp.hpp\n'}
+[9.667704] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/detection2_d_array__type_support.cpp\n'}
+[9.667801] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/tracked_detection2_d_array__rosidl_typesupport_introspection_cpp.hpp\n'}
+[9.667901] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/motor_status__type_support.cpp\n'}
+[9.668002] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/tracked_detection2_d__type_support.cpp\n'}
+[9.668103] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/include/sentinel_interfaces/sentinel_interfaces/msg/detail/yolo_status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[9.668244] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/lib/libsentinel_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[9.668708] (sentinel_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/root/ros2_ws/install/sentinel_interfaces/lib/libsentinel_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[9.668771] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/lib/libsentinel_interfaces__rosidl_typesupport_cpp.so\n'}
+[9.669128] (sentinel_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/root/ros2_ws/install/sentinel_interfaces/lib/libsentinel_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[9.669200] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/share/sentinel_interfaces/environment/pythonpath.sh\n'}
+[9.669294] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/share/sentinel_interfaces/environment/pythonpath.dsv\n'}
+[9.669397] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/lib/python3.12/site-packages/sentinel_interfaces-0.0.0-py3.12.egg-info\n'}
+[9.669498] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/lib/python3.12/site-packages/sentinel_interfaces-0.0.0-py3.12.egg-info/PKG-INFO\n'}
+[9.669590] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/lib/python3.12/site-packages/sentinel_interfaces-0.0.0-py3.12.egg-info/top_level.txt\n'}
+[9.669676] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/lib/python3.12/site-packages/sentinel_interfaces-0.0.0-py3.12.egg-info/SOURCES.txt\n'}
+[9.669763] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/lib/python3.12/site-packages/sentinel_interfaces-0.0.0-py3.12.egg-info/dependency_links.txt\n'}
+[9.669883] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/lib/python3.12/site-packages/sentinel_interfaces\n'}
+[9.669943] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/lib/python3.12/site-packages/sentinel_interfaces/_sentinel_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[9.670101] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/lib/python3.12/site-packages/sentinel_interfaces/sentinel_interfaces_s__rosidl_typesupport_c.so\n'}
+[9.670253] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/lib/python3.12/site-packages/sentinel_interfaces/sentinel_interfaces_s__rosidl_typesupport_fastrtps_c.so\n'}
+[9.670410] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/lib/python3.12/site-packages/sentinel_interfaces/_sentinel_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[9.670577] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/lib/python3.12/site-packages/sentinel_interfaces/_sentinel_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[9.670732] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/lib/python3.12/site-packages/sentinel_interfaces/srv\n'}
+[9.670791] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/lib/python3.12/site-packages/sentinel_interfaces/srv/_set_threshold.py\n'}
+[9.670892] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/lib/python3.12/site-packages/sentinel_interfaces/srv/_set_bool_flag_s.c\n'}
+[9.670984] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/lib/python3.12/site-packages/sentinel_interfaces/srv/_set_bool_flag.py\n'}
+[9.671093] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/lib/python3.12/site-packages/sentinel_interfaces/srv/_set_threshold_s.c\n'}
+[9.671187] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/lib/python3.12/site-packages/sentinel_interfaces/srv/__init__.py\n'}
+[9.671267] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/lib/python3.12/site-packages/sentinel_interfaces/msg\n'}
+[9.671345] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/lib/python3.12/site-packages/sentinel_interfaces/msg/_tracked_detection2_d.py\n'}
+[9.671438] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/lib/python3.12/site-packages/sentinel_interfaces/msg/_tracked_detection2_d_array.py\n'}
+[9.671527] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/lib/python3.12/site-packages/sentinel_interfaces/msg/_detection2_d_array.py\n'}
+[9.671614] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/lib/python3.12/site-packages/sentinel_interfaces/msg/_motor_status_s.c\n'}
+[9.671708] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/lib/python3.12/site-packages/sentinel_interfaces/msg/_motor_command_s.c\n'}
+[9.671798] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/lib/python3.12/site-packages/sentinel_interfaces/msg/_frame_size_s.c\n'}
+[9.671881] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/lib/python3.12/site-packages/sentinel_interfaces/msg/_frame_size.py\n'}
+[9.671969] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/lib/python3.12/site-packages/sentinel_interfaces/msg/_tracked_detection2_d_s.c\n'}
+[9.672056] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/lib/python3.12/site-packages/sentinel_interfaces/msg/_yolo_status_s.c\n'}
+[9.672141] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/lib/python3.12/site-packages/sentinel_interfaces/msg/_motor_angle.py\n'}
+[9.672232] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/lib/python3.12/site-packages/sentinel_interfaces/msg/_detection_s.c\n'}
+[9.672313] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/lib/python3.12/site-packages/sentinel_interfaces/msg/_yolo_status.py\n'}
+[9.672404] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/lib/python3.12/site-packages/sentinel_interfaces/msg/_motor_angle_s.c\n'}
+[9.672488] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/lib/python3.12/site-packages/sentinel_interfaces/msg/_video_rx_status.py\n'}
+[9.672574] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/lib/python3.12/site-packages/sentinel_interfaces/msg/_motor_command.py\n'}
+[9.672667] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/lib/python3.12/site-packages/sentinel_interfaces/msg/_detection2_d.py\n'}
+[9.672760] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/lib/python3.12/site-packages/sentinel_interfaces/msg/_frame_info.py\n'}
+[9.672864] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/lib/python3.12/site-packages/sentinel_interfaces/msg/_video_rx_status_s.c\n'}
+[9.672936] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/lib/python3.12/site-packages/sentinel_interfaces/msg/_frame_info_s.c\n'}
+[9.673021] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/lib/python3.12/site-packages/sentinel_interfaces/msg/_detection2_d_s.c\n'}
+[9.673106] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/lib/python3.12/site-packages/sentinel_interfaces/msg/_detection2_d_array_s.c\n'}
+[9.673199] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/lib/python3.12/site-packages/sentinel_interfaces/msg/_tracked_detection2_d_array_s.c\n'}
+[9.673294] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/lib/python3.12/site-packages/sentinel_interfaces/msg/_detection.py\n'}
+[9.673382] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/lib/python3.12/site-packages/sentinel_interfaces/msg/_motor_status.py\n'}
+[9.673477] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/lib/python3.12/site-packages/sentinel_interfaces/msg/__init__.py\n'}
+[9.673560] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/lib/python3.12/site-packages/sentinel_interfaces/sentinel_interfaces_s__rosidl_typesupport_introspection_c.so\n'}
+[9.673713] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/lib/python3.12/site-packages/sentinel_interfaces/__init__.py\n'}
+[9.738069] (sentinel_interfaces) StdoutLine: {'line': b"Listing '/root/ros2_ws/install/sentinel_interfaces/lib/python3.12/site-packages/sentinel_interfaces'...\n"}
+[9.738284] (sentinel_interfaces) StdoutLine: {'line': b"Compiling '/root/ros2_ws/install/sentinel_interfaces/lib/python3.12/site-packages/sentinel_interfaces/__init__.py'...\n"}
+[9.738347] (sentinel_interfaces) StdoutLine: {'line': b"Listing '/root/ros2_ws/install/sentinel_interfaces/lib/python3.12/site-packages/sentinel_interfaces/msg'...\n"}
+[9.738505] (sentinel_interfaces) StdoutLine: {'line': b"Compiling '/root/ros2_ws/install/sentinel_interfaces/lib/python3.12/site-packages/sentinel_interfaces/msg/__init__.py'...\n"}
+[9.738558] (sentinel_interfaces) StdoutLine: {'line': b"Compiling '/root/ros2_ws/install/sentinel_interfaces/lib/python3.12/site-packages/sentinel_interfaces/msg/_detection.py'...\n"}
+[9.738605] (sentinel_interfaces) StdoutLine: {'line': b"Compiling '/root/ros2_ws/install/sentinel_interfaces/lib/python3.12/site-packages/sentinel_interfaces/msg/_detection2_d.py'...\n"}
+[9.738651] (sentinel_interfaces) StdoutLine: {'line': b"Compiling '/root/ros2_ws/install/sentinel_interfaces/lib/python3.12/site-packages/sentinel_interfaces/msg/_detection2_d_array.py'...\n"}
+[9.738699] (sentinel_interfaces) StdoutLine: {'line': b"Compiling '/root/ros2_ws/install/sentinel_interfaces/lib/python3.12/site-packages/sentinel_interfaces/msg/_frame_info.py'...\n"}
+[9.738746] (sentinel_interfaces) StdoutLine: {'line': b"Compiling '/root/ros2_ws/install/sentinel_interfaces/lib/python3.12/site-packages/sentinel_interfaces/msg/_frame_size.py'...\n"}
+[9.738792] (sentinel_interfaces) StdoutLine: {'line': b"Compiling '/root/ros2_ws/install/sentinel_interfaces/lib/python3.12/site-packages/sentinel_interfaces/msg/_motor_angle.py'...\n"}
+[9.738838] (sentinel_interfaces) StdoutLine: {'line': b"Compiling '/root/ros2_ws/install/sentinel_interfaces/lib/python3.12/site-packages/sentinel_interfaces/msg/_motor_command.py'...\n"}
+[9.738884] (sentinel_interfaces) StdoutLine: {'line': b"Compiling '/root/ros2_ws/install/sentinel_interfaces/lib/python3.12/site-packages/sentinel_interfaces/msg/_motor_status.py'...\n"}
+[9.738930] (sentinel_interfaces) StdoutLine: {'line': b"Compiling '/root/ros2_ws/install/sentinel_interfaces/lib/python3.12/site-packages/sentinel_interfaces/msg/_tracked_detection2_d.py'...\n"}
+[9.738976] (sentinel_interfaces) StdoutLine: {'line': b"Compiling '/root/ros2_ws/install/sentinel_interfaces/lib/python3.12/site-packages/sentinel_interfaces/msg/_tracked_detection2_d_array.py'...\n"}
+[9.739047] (sentinel_interfaces) StdoutLine: {'line': b"Compiling '/root/ros2_ws/install/sentinel_interfaces/lib/python3.12/site-packages/sentinel_interfaces/msg/_video_rx_status.py'...\n"}
+[9.739093] (sentinel_interfaces) StdoutLine: {'line': b"Compiling '/root/ros2_ws/install/sentinel_interfaces/lib/python3.12/site-packages/sentinel_interfaces/msg/_yolo_status.py'...\n"}
+[9.739139] (sentinel_interfaces) StdoutLine: {'line': b"Listing '/root/ros2_ws/install/sentinel_interfaces/lib/python3.12/site-packages/sentinel_interfaces/srv'...\n"}
+[9.739185] (sentinel_interfaces) StdoutLine: {'line': b"Compiling '/root/ros2_ws/install/sentinel_interfaces/lib/python3.12/site-packages/sentinel_interfaces/srv/__init__.py'...\n"}
+[9.739235] (sentinel_interfaces) StdoutLine: {'line': b"Compiling '/root/ros2_ws/install/sentinel_interfaces/lib/python3.12/site-packages/sentinel_interfaces/srv/_set_bool_flag.py'...\n"}
+[9.739281] (sentinel_interfaces) StdoutLine: {'line': b"Compiling '/root/ros2_ws/install/sentinel_interfaces/lib/python3.12/site-packages/sentinel_interfaces/srv/_set_threshold.py'...\n"}
+[9.743319] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/lib/python3.12/site-packages/sentinel_interfaces/sentinel_interfaces_s__rosidl_typesupport_fastrtps_c.so\n'}
+[9.746439] (sentinel_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/root/ros2_ws/install/sentinel_interfaces/lib/python3.12/site-packages/sentinel_interfaces/sentinel_interfaces_s__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[9.746715] (-) TimerEvent: {}
+[9.746736] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/lib/python3.12/site-packages/sentinel_interfaces/sentinel_interfaces_s__rosidl_typesupport_introspection_c.so\n'}
+[9.746801] (sentinel_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/root/ros2_ws/install/sentinel_interfaces/lib/python3.12/site-packages/sentinel_interfaces/sentinel_interfaces_s__rosidl_typesupport_introspection_c.so" to ""\n'}
+[9.746860] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/lib/python3.12/site-packages/sentinel_interfaces/sentinel_interfaces_s__rosidl_typesupport_c.so\n'}
+[9.746924] (sentinel_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/root/ros2_ws/install/sentinel_interfaces/lib/python3.12/site-packages/sentinel_interfaces/sentinel_interfaces_s__rosidl_typesupport_c.so" to ""\n'}
+[9.746987] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/lib/libsentinel_interfaces__rosidl_generator_py.so\n'}
+[9.747339] (sentinel_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/root/ros2_ws/install/sentinel_interfaces/lib/libsentinel_interfaces__rosidl_generator_py.so" to ""\n'}
+[9.747402] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/share/sentinel_interfaces/msg/MotorAngle.idl\n'}
+[9.747462] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/share/sentinel_interfaces/msg/Detection.idl\n'}
+[9.747618] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/share/sentinel_interfaces/msg/Detection2D.idl\n'}
+[9.747675] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/share/sentinel_interfaces/msg/Detection2DArray.idl\n'}
+[9.747735] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/share/sentinel_interfaces/msg/FrameInfo.idl\n'}
+[9.747796] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/share/sentinel_interfaces/msg/FrameSize.idl\n'}
+[9.747856] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/share/sentinel_interfaces/msg/MotorCommand.idl\n'}
+[9.747917] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/share/sentinel_interfaces/msg/MotorStatus.idl\n'}
+[9.747977] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/share/sentinel_interfaces/msg/TrackedDetection2D.idl\n'}
+[9.748038] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/share/sentinel_interfaces/msg/TrackedDetection2DArray.idl\n'}
+[9.748098] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/share/sentinel_interfaces/msg/VideoRxStatus.idl\n'}
+[9.748227] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/share/sentinel_interfaces/msg/YoloStatus.idl\n'}
+[9.748288] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/share/sentinel_interfaces/srv/SetBoolFlag.idl\n'}
+[9.748349] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/share/sentinel_interfaces/srv/SetThreshold.idl\n'}
+[9.748409] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/share/sentinel_interfaces/msg/MotorAngle.msg\n'}
+[9.748557] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/share/sentinel_interfaces/msg/Detection.msg\n'}
+[9.748620] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/share/sentinel_interfaces/msg/Detection2D.msg\n'}
+[9.748740] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/share/sentinel_interfaces/msg/Detection2DArray.msg\n'}
+[9.748808] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/share/sentinel_interfaces/msg/FrameInfo.msg\n'}
+[9.748932] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/share/sentinel_interfaces/msg/FrameSize.msg\n'}
+[9.748987] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/share/sentinel_interfaces/msg/MotorCommand.msg\n'}
+[9.749099] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/share/sentinel_interfaces/msg/MotorStatus.msg\n'}
+[9.749208] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/share/sentinel_interfaces/msg/TrackedDetection2D.msg\n'}
+[9.749335] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/share/sentinel_interfaces/msg/TrackedDetection2DArray.msg\n'}
+[9.749463] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/share/sentinel_interfaces/msg/VideoRxStatus.msg\n'}
+[9.749597] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/share/sentinel_interfaces/msg/YoloStatus.msg\n'}
+[9.749765] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/share/sentinel_interfaces/srv/SetBoolFlag.srv\n'}
+[9.749909] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/share/sentinel_interfaces/srv/SetThreshold.srv\n'}
+[9.750077] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/share/ament_index/resource_index/package_run_dependencies/sentinel_interfaces\n'}
+[9.750510] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/share/ament_index/resource_index/parent_prefix_path/sentinel_interfaces\n'}
+[9.750685] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/share/sentinel_interfaces/environment/ament_prefix_path.sh\n'}
+[9.750796] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/share/sentinel_interfaces/environment/ament_prefix_path.dsv\n'}
+[9.751731] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/share/sentinel_interfaces/environment/path.sh\n'}
+[9.751786] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/share/sentinel_interfaces/environment/path.dsv\n'}
+[9.751835] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/share/sentinel_interfaces/local_setup.bash\n'}
+[9.751889] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/share/sentinel_interfaces/local_setup.sh\n'}
+[9.751974] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/share/sentinel_interfaces/local_setup.zsh\n'}
+[9.752031] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/share/sentinel_interfaces/local_setup.dsv\n'}
+[9.752087] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/share/sentinel_interfaces/package.dsv\n'}
+[9.752142] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/share/ament_index/resource_index/packages/sentinel_interfaces\n'}
+[9.752230] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/share/sentinel_interfaces/cmake/export_sentinel_interfaces__rosidl_generator_cExport.cmake\n'}
+[9.752348] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/share/sentinel_interfaces/cmake/export_sentinel_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[9.752403] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/share/sentinel_interfaces/cmake/export_sentinel_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[9.752453] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/share/sentinel_interfaces/cmake/export_sentinel_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[9.752553] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/share/sentinel_interfaces/cmake/sentinel_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[9.752642] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/share/sentinel_interfaces/cmake/sentinel_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[9.752784] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/share/sentinel_interfaces/cmake/sentinel_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[9.752955] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/share/sentinel_interfaces/cmake/sentinel_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[9.753109] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/share/sentinel_interfaces/cmake/export_sentinel_interfaces__rosidl_generator_cppExport.cmake\n'}
+[9.753262] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/share/sentinel_interfaces/cmake/export_sentinel_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[9.753399] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/share/sentinel_interfaces/cmake/export_sentinel_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[9.753559] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/share/sentinel_interfaces/cmake/sentinel_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[9.753709] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/share/sentinel_interfaces/cmake/sentinel_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[9.754127] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/share/sentinel_interfaces/cmake/sentinel_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[9.754222] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/share/sentinel_interfaces/cmake/sentinel_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[9.754272] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/share/sentinel_interfaces/cmake/export_sentinel_interfaces__rosidl_generator_pyExport.cmake\n'}
+[9.754394] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/share/sentinel_interfaces/cmake/export_sentinel_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[9.754500] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/share/sentinel_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[9.754589] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/share/sentinel_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[9.754738] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/share/sentinel_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[9.754881] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/share/sentinel_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[9.755026] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/share/sentinel_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[9.755148] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/share/sentinel_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[9.755287] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/share/sentinel_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[9.755428] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/share/sentinel_interfaces/cmake/sentinel_interfacesConfig.cmake\n'}
+[9.755533] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/share/sentinel_interfaces/cmake/sentinel_interfacesConfig-version.cmake\n'}
+[9.755670] (sentinel_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/sentinel_interfaces/share/sentinel_interfaces/package.xml\n'}
+[9.758989] (sentinel_interfaces) CommandEnded: {'returncode': 0}
+[9.786112] (sentinel_interfaces) JobEnded: {'identifier': 'sentinel_interfaces', 'rc': 0}
+[9.786849] (-) EventReactorShutdown: {}

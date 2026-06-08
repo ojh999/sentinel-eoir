@@ -1,0 +1,5 @@
+#YoloStatus.msg
+bool enabled
+bool model_loaded
+float32 conf_threshold
+string last_error

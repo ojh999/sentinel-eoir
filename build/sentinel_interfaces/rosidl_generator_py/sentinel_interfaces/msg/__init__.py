@@ -1,0 +1,12 @@
+from sentinel_interfaces.msg._detection import Detection  # noqa: F401
+from sentinel_interfaces.msg._detection2_d import Detection2D  # noqa: F401
+from sentinel_interfaces.msg._detection2_d_array import Detection2DArray  # noqa: F401
+from sentinel_interfaces.msg._frame_info import FrameInfo  # noqa: F401
+from sentinel_interfaces.msg._frame_size import FrameSize  # noqa: F401
+from sentinel_interfaces.msg._motor_angle import MotorAngle  # noqa: F401
+from sentinel_interfaces.msg._motor_command import MotorCommand  # noqa: F401
+from sentinel_interfaces.msg._motor_status import MotorStatus  # noqa: F401
+from sentinel_interfaces.msg._tracked_detection2_d import TrackedDetection2D  # noqa: F401
+from sentinel_interfaces.msg._tracked_detection2_d_array import TrackedDetection2DArray  # noqa: F401
+from sentinel_interfaces.msg._video_rx_status import VideoRxStatus  # noqa: F401
+from sentinel_interfaces.msg._yolo_status import YoloStatus  # noqa: F401

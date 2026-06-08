@@ -1,0 +1,24 @@
+{
+  "package_name": "sentinel_interfaces",
+  "output_dir": "/root/ros2_ws/build/sentinel_interfaces/rosidl_generator_type_description/sentinel_interfaces",
+  "idl_tuples": [
+    "/root/ros2_ws/build/sentinel_interfaces/rosidl_adapter/sentinel_interfaces:msg/MotorAngle.idl",
+    "/root/ros2_ws/build/sentinel_interfaces/rosidl_adapter/sentinel_interfaces:msg/Detection.idl",
+    "/root/ros2_ws/build/sentinel_interfaces/rosidl_adapter/sentinel_interfaces:msg/Detection2D.idl",
+    "/root/ros2_ws/build/sentinel_interfaces/rosidl_adapter/sentinel_interfaces:msg/Detection2DArray.idl",
+    "/root/ros2_ws/build/sentinel_interfaces/rosidl_adapter/sentinel_interfaces:msg/FrameInfo.idl",
+    "/root/ros2_ws/build/sentinel_interfaces/rosidl_adapter/sentinel_interfaces:msg/FrameSize.idl",
+    "/root/ros2_ws/build/sentinel_interfaces/rosidl_adapter/sentinel_interfaces:msg/MotorCommand.idl",
+    "/root/ros2_ws/build/sentinel_interfaces/rosidl_adapter/sentinel_interfaces:msg/MotorStatus.idl",
+    "/root/ros2_ws/build/sentinel_interfaces/rosidl_adapter/sentinel_interfaces:msg/TrackedDetection2D.idl",
+    "/root/ros2_ws/build/sentinel_interfaces/rosidl_adapter/sentinel_interfaces:msg/TrackedDetection2DArray.idl",
+    "/root/ros2_ws/build/sentinel_interfaces/rosidl_adapter/sentinel_interfaces:msg/VideoRxStatus.idl",
+    "/root/ros2_ws/build/sentinel_interfaces/rosidl_adapter/sentinel_interfaces:msg/YoloStatus.idl",
+    "/root/ros2_ws/build/sentinel_interfaces/rosidl_adapter/sentinel_interfaces:srv/SetBoolFlag.idl",
+    "/root/ros2_ws/build/sentinel_interfaces/rosidl_adapter/sentinel_interfaces:srv/SetThreshold.idl"
+  ],
+  "include_paths": [
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces",
+    "service_msgs:/opt/ros/jazzy/share/service_msgs"
+  ]
+}

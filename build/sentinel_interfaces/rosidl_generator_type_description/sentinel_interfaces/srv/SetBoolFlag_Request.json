@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "sentinel_interfaces/srv/SetBoolFlag_Request",
+      "fields": [
+        {
+          "name": "data",
+          "type": {
+            "type_id": 15,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "sentinel_interfaces/srv/SetBoolFlag_Request",
+      "hash_string": "RIHS01_4c5d06997000f28247f2e0207789c6cfac6494e20bd666701bf3b6d35c0f564d"
+    }
+  ]
+}
